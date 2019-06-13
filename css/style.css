@@ -1,0 +1,41 @@
+body {
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	color: #000;
+}
+
+h1,
+h2 {
+	font-size: x-large;
+	text-align: left;
+	color: #000;
+	font-weight: normal;
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+}
+
+table {
+	margin: 0;
+	overflow: hidden;
+	font-size: large;
+	padding: 10px 0;
+}
+
+th {
+	text-align: left;
+	vertical-align: top;
+	padding: 5px 20px 5px 0;
+}
+td {
+	text-align: left;
+	vertical-align: top;
+	padding: 5px 20px 5px 0;
+}
