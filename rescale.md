@@ -1,5 +1,7 @@
 # Rescale
 
+![rescale](https://blokas.io/images/midihub/pipes/rescale.svg)
+
 A modifier pipe that rescales the values of the MIDI messages it's set to work with.
 
 First incoming values are clipped at the In range, then they get linearly rescaled to the Out range.

@@ -1,5 +1,7 @@
 # Channel Range Filter
 
+![ch_r_filter](https://blokas.io/images/midihub/pipes/ch_r_filter.svg)
+
 A modifier pipe that can discard or keep MIDI Channel events, like Note On, Note Off, CC, Program Change, and others in the desired ranges.
 
 Both ends of the ranges are inclusive.

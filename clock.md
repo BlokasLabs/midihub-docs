@@ -1,5 +1,7 @@
 # Clock
 
+![clock](https://blokas.io/images/midihub/pipes/clock.svg)
+
 Generator pipe that produces MIDI clock at the defined BPM value.
 
 | Parameter              | Description                    |

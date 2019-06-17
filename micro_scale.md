@@ -1,5 +1,7 @@
 # Micro Scale
 
+![mcr_scale](https://blokas.io/images/midihub/pipes/mcr_scale.svg)
+
 A modifier pipe that adjusts MIDI note numbers and generates pitch bend messages according to a micro tuning defined in Scala language.
 
 This pipe acts similar to the [Dispatcher](dispatcher.md) pipe, as it dispatches each note to a new channel,

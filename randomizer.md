@@ -1,5 +1,7 @@
 # Randomizer
 
+![random](https://blokas.io/images/midihub/pipes/random.svg)
+
 A modifier pipe that randomly modulates the selected parameter of incoming MIDI notes or CC values.
 
 | Parameter              | Description                                                  |

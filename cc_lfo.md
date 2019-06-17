@@ -1,5 +1,7 @@
 # CC LFO
 
+![cc_lfo](https://blokas.io/images/midihub/pipes/cc_lfo_hybrid.svg)
+
 A pipe that can be placed both as a Generator or as a Modifier.
 It produces an LFO waveform, as defined by the many parameters,
 on the selected CC value.

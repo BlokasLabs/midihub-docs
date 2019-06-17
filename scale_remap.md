@@ -1,5 +1,7 @@
 # Scale Remap
 
+![sc_remap](https://blokas.io/images/midihub/pipes/sc_remap.svg)
+
 A modifier pipe that remaps MIDI notes according to the scale map as defined in the parameters.
 It works on the basis of 12 notes per octave.
 

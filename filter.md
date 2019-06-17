@@ -1,5 +1,7 @@
 # Filter
 
+![filter](https://blokas.io/images/midihub/pipes/filter.svg)
+
 A modifier pipe that can selectively discard MIDI events of types: Note On, Note Off, Channel Pressure, Control Change, Pitch Bend, Poly Aftertouch, Program Change, System Common, System Real-Time.
 
 | Parameter              | Description                    |

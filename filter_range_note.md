@@ -1,5 +1,7 @@
 # Note Range Filter
 
+![note_r_filter](https://blokas.io/images/midihub/pipes/note_r_filter.svg)
+
 A modifier pipe that can discard or keep MIDI Note On and Note Off events in the desired ranges.
 
 Both ends of the ranges are inclusive.

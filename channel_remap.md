@@ -1,5 +1,7 @@
 # Channel Remap
 
+![ch_remap](https://blokas.io/images/midihub/pipes/ch_remap.svg)
+
 A modifier pipe that remaps the Channel number of MIDI messages that carry Channel information from given input range to the desired output range.
 Any Channel messages that are outside of input range will get discarded. Using this pipe, you may route MIDI data based on the channel to other ports.
 

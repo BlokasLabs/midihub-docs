@@ -1,5 +1,7 @@
 # CC Remap
 
+![cc_remap](https://blokas.io/images/midihub/pipes/cc_remap.svg)
+
 A modifier pipe that remaps the CC id number from given input range to the desired output range.
 Any CC messages that are outside of input range will get discarded. Using this pipe, you may remap MIDI CC ids.
 

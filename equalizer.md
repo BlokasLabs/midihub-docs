@@ -1,5 +1,7 @@
 # Equalizer
 
+![equalizer](https://blokas.io/images/midihub/pipes/equalizer.svg)
+
 A modifier pipe that amplifies the Velocity parameter of MIDI Note On messages, based on the MIDI Note number and a 3 band Eq curve.
 
 The low band is at C1 (note 24), the mid band is at C4 (note 60, Middle C), the high band is at C7 (note 96).

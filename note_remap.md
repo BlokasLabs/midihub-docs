@@ -1,5 +1,7 @@
 # Note Remap
 
+![note_remap](https://blokas.io/images/midihub/pipes/note_remap.svg)
+
 A modifier pipe that remaps Note On and Note Off note values from given input range to the desired output range.
 Any Note On and Note Off events that are outside of input range will get discarded. Using this pipe together with
 virtual inputs / outputs you can split your keyboard to control multiple devices. Or you can transpose and scale or

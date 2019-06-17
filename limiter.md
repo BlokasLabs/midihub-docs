@@ -1,5 +1,7 @@
 # Limiter
 
+![limiter](https://blokas.io/images/midihub/pipes/limiter.svg)
+
 A modifier pipe that limits the values of the MIDI messages it's set to work with.
 
 The incoming values are clipped to fit in range [Minimum;Maximum].

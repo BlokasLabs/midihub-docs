@@ -1,5 +1,7 @@
 # Dispatcher
 
+![dispatcher](https://blokas.io/images/midihub/pipes/dispatcher.svg)
+
 A modifier pipe that upon receiving a note message dispatches it to different channels, rotating and keeping track of empty slots.
 
 This pipe should be combined with Virtual Pipes and Channel Remap to route the MIDI data to the necessary MIDI outputs.

@@ -1,5 +1,7 @@
 # Velocity Amplifier
 
+![vel_amp](https://blokas.io/images/midihub/pipes/vel_amp.svg)
+
 A modifier pipe that amplifies the Velocity parameter of MIDI Note On messages.
 
 | Parameter              | Description                                 |

@@ -1,5 +1,7 @@
 # Channel Filter
 
+![ch_filter](https://blokas.io/images/midihub/pipes/ch_filter.svg)
+
 A modifier pipe that can selectively discard MIDI events in undesired channels.
 
 | Parameter              | Description                    |

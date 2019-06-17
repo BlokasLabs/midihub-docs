@@ -1,5 +1,7 @@
 # CC Range Filter
 
+![cc_r_filter](https://blokas.io/images/midihub/pipes/cc_r_filter.svg)
+
 A modifier pipe that can discard or keep MIDI CC events in the desired ranges.
 
 Both ends of the ranges are inclusive.

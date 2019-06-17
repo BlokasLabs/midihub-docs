@@ -2,6 +2,8 @@
 
 ## The Midihub Device
 
+![midihub-side](https://blokas.io/images/midihub/midihub-side.jpg)
+
 Midihub is the backbone of your MIDI hardware interconnectivity. It has MIDI DIN-5 input and output ports, 4 of each, as well as a USB port for power supply and/or communicating with the PC and its software. All MIDI data flows through the customizable MIDI Processing Pipelines within the device with extremely low latency and without involving any processing on the PC. It enables expanding the capabilities of your setup and makes interop between MIDI hardware easy.
 
 ## Input / Output
@@ -19,6 +21,8 @@ On power-up Midihub loads the MIDI Processing Pipelines that were stored in its 
 TBD
 
 ## The Processing Pipelines
+
+![editor-win](https://blokas.io/images/midihub/midihub-editor-win.png)
 
 MIDI data flows through Midihub Processing Pipelines from left to right. All MIDI data enters the pipeline through the leftmost Input or Generator pipes, and exits through the rightmost Output pipes. Processing the same MIDI event multiple times and in different ways is possible by making use of Virtual Input / Output ports. The data sent to a Virtual Output port will appear again in the matching Virtual Input ports, enabling implementation of keyboard splits or automatically generating chords. Pipes that modify or filter MIDI data can be placed in between the Input and Output ports. In case a pipe discards the MIDI data flowing through it, it won't be forwarded to the pipe on the right, dropping the event.
 

@@ -1,5 +1,7 @@
 # Chance
 
+![chance](https://blokas.io/images/midihub/pipes/chance.svg)
+
 A modifier pipe that randomly drops MIDI notes based on chance and timing.
 
 There's Chance and Timed Chance parameters for defining the percentage chance of keeping the notes playing.

@@ -1,5 +1,7 @@
 # Tempo Divider
 
+![tempo_div](https://blokas.io/images/midihub/pipes/tempo_div.svg)
+
 A modifier pipe that divides the tempo by dropping multiples of Real-Time Clock MIDI messages.
 
 | Parameter              | Description                                                  |

@@ -1,5 +1,7 @@
 # Transform
 
+![transform](https://blokas.io/images/midihub/pipes/transform.svg)
+
 A modifier pipe that transforms particular kind of MIDI messages into the desired kind of MIDI message.
 
 The possible transformations:
