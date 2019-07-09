@@ -51,6 +51,7 @@ The Button can be configured to do one of the following actions when held down f
 * [Virtual Output](virtual_output)
 * [CC LFO](cc_lfo)
 * [Clock](clock)
+* [Note Length](note_length)
 * [Note Repeater](note_repeater)
 * [Arpeggiator](arpeggiator)
 * [Delay](delay)
