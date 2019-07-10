@@ -13,4 +13,8 @@ The incoming values are clipped to fit in range [Minimum;Maximum].
 | Minimum                | The lowest value.                                        |
 | Maximum                | The highest value.                                       |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

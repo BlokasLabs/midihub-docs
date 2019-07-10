@@ -15,4 +15,8 @@ See the preview at the bottom of the the Properties panel to see how the curve l
 | Medium                 | Same as above.                                           |
 | High                   | Same as above.                                           |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

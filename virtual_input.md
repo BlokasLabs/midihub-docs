@@ -9,4 +9,8 @@ The entry point of Virtual MIDI data. The data that reached the matching letter 
 | Bypass    | Whether processing is enabled. |
 | Source    | The source of MIDI data.       |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

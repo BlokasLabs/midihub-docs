@@ -20,4 +20,8 @@ If two or more intervals are of the same value, only one note of that interval g
 | 7th interval           | Same as above. |
 | 8th interval           | Same as above. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

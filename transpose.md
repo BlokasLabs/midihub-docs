@@ -9,4 +9,8 @@ A modifier pipe that adds its semitones argument to all MIDI Note On and Note Of
 | Bypass                 | Whether processing is enabled. |
 | Semitones              | The amount of semitones to add to the MIDI note number. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

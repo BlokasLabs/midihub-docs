@@ -31,4 +31,8 @@ See the preview at the bottom of the the Properties panel to visualize how the L
 | Start on SysCommon     | (Only as Modifier) Whether to start ticking the LFO clock on system common messages such as 'start', 'continue', 'song position pointer'. |
 | Manual Retrigger       | A button to manually retrigger the LFO. It can be mapped to a control which guarantees low latency to take effect as soon as the mapped control is moved. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

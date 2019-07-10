@@ -1,6 +1,6 @@
 # Arpeggiator
 
-![arpeggiator](https://blokas.io/images/midihub/pipes/arpeggiator.svg)
+![arpeggiator](https://blokas.io/images/midihub/pipes/arp.svg)
 
 A modifier pipe that produces arpeggios using the held down notes at the given rate, using the velocity of the last note held down or aftertouch.
 Swing and accent can be applied to the produced notes. The notes produced are quantized to the tempo, so **MIDI Clock messages must
@@ -38,4 +38,8 @@ Multiple variations of note sequences can be selected:
 | Repetitions            | The amount of times to repeat the same step in the arpeggio sequence. |
 | Retrigger Octave       | Whether to reset the current octave to 0 when all notes are off. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

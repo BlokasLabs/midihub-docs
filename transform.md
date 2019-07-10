@@ -25,4 +25,8 @@ The possible transformations:
 | Argument               | (Conversion to CC only) The CC id to use.                |
 | Pass-Through           | Whether to send the untransformed message through.       |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

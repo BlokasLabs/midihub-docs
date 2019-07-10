@@ -12,4 +12,8 @@ A modifier pipe that randomly modulates the selected parameter of incoming MIDI 
 | Negative               | The max depth to offset the value in the negative direction. |
 | CC                     | The CC id to work with, if CC Value parameter is selected.   |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

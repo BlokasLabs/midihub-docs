@@ -15,5 +15,8 @@ The incoming MIDI Channel messages with the channel number outside of the Input 
 | Out Low                | The lowest value of output range.  |
 | Out High               | The highest value of output range. |
 
+<span class="blokas-web-hide">
 
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

@@ -24,4 +24,8 @@ A modifier pipe that can selectively discard MIDI events in undesired channels.
 | Channel 15             | Same as above. |
 | Channel 16             | Same as above. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

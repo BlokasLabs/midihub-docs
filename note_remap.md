@@ -22,4 +22,8 @@ The incoming MIDI Notes with the note number outside of the Input range will get
 | Out Low                | The lowest value of output range.  |
 | Out High               | The highest value of output range. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

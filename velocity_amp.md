@@ -9,4 +9,8 @@ A modifier pipe that amplifies the Velocity parameter of MIDI Note On messages.
 | Bypass                 | Whether processing is enabled.              |
 | Amplification          | The gain to apply to the incoming velocity. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

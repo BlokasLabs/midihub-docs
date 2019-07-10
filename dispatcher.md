@@ -26,4 +26,8 @@ This pipe should be combined with Virtual Pipes and Channel Remap to route the M
 | Use Ch 15              | Use MIDI Channel 15 for dispatching. |
 | Use Ch 16              | Use MIDI Channel 16 for dispatching. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

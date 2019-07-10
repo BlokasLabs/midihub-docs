@@ -29,4 +29,8 @@ held down notes.
 | Fixed Length           | Whether to use variable lengths of notes as they were played, or the same fixed length for every note, as set by Note Length parameter. |
 | Overdub                | If enabled, new notes will get recorded into the delay loop. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

@@ -38,4 +38,8 @@ Check out the [Scala website](http://www.huygens-fokker.org/scala/),
 | Use Ch 15              | Same as above.                             |
 | Use Ch 16              | Same as above.                             |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

@@ -23,4 +23,8 @@ It works on the basis of 12 notes per octave.
 | VI#                    | Same as above.                             |
 | VII                    | Same as above.                             |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

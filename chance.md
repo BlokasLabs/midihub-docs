@@ -21,4 +21,8 @@ You can always set Chance or Timed Chance to 100% to cause the particular types 
 | Sync                   | Whether the Period is synced to BPM or free running.         |
 | Use Velocity           | Whether to use Velocity of the note instead of the Chance parameter. 127 velocity is 100%. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

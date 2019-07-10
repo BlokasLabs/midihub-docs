@@ -9,4 +9,8 @@ A modifier pipe that divides the tempo by dropping multiples of Real-Time Clock 
 | Bypass                 | Whether processing is enabled.                               |
 | Divide by              | The divider.                                                 |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

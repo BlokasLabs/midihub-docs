@@ -15,4 +15,8 @@ reach this pipe** for it to be able to do its work. The notes only get produced 
 | Swing                  | The amount of swing to apply to odd notes. |
 | Accent                 | The amount to accent every 2nd note. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

@@ -10,4 +10,8 @@ Using this pipe some tricky MIDI hardware sync incompatibility issues can be res
 | Bypass                 | Whether processing is enabled.                               |
 | Delay by               | The amount of clocks to delay by.                            |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

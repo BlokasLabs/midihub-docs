@@ -26,4 +26,8 @@ A modifier pipe that can selectively discard MIDI events of types: Note On, Note
 | Active Sensing         | Same as above. |
 | Reset                  | Same as above. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

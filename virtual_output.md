@@ -9,4 +9,8 @@ The forwarding point of Virtual MIDI data. The data that reaches the pipe will a
 | Bypass    | Whether processing is enabled. Prefer bypassing Input pipes. |
 | Destination | The destination of MIDI data. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

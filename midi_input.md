@@ -9,4 +9,8 @@ The entry point of MIDI data. The data received through MIDI IN connector with t
 | Bypass    | Whether processing is enabled. |
 | Source    | The source of MIDI data.       |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

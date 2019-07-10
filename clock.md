@@ -18,4 +18,8 @@ Generator pipe that produces MIDI clock at the defined BPM value.
 | Use MIDI USB C         | Same for MIDI USB C input. |
 | Use MIDI USB D         | Same for MIDI USB D input. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

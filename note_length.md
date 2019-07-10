@@ -15,4 +15,8 @@ A modifier pipe that fixes the note lengths to the given length. If Trigger is s
 | Sync                   | Whether to sync the length to the tempo. |
 | Decay                  | In case Trigger is set to Note Off, this parameter affects the velocity of the Note On that will get produced when triggered by decaying the velocity of original Note On message. The time set by this parameter is the time it would take to decay the original Note On velocity to 0. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

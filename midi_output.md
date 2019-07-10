@@ -9,4 +9,8 @@ The exit point of MIDI data. The data that reaches this pipe will be sent throug
 | Bypass    | Whether processing is enabled. Prefer bypassing Input pipes. |
 | Destination | The destination of MIDI data. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>

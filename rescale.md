@@ -15,4 +15,8 @@ First incoming values are clipped at the In range, then they get linearly rescal
 | Out Low                | The lowest value of output range.  |
 | Out High               | The highest value of output range. |
 
+<span class="blokas-web-hide">
+
 [List of Pipes](index.md#the-list-of-pipes)
+
+</span>
