@@ -8,6 +8,8 @@ reach this pipe** for it to be able to do its work. The notes only get produced 
 
 The arpeggio sequences will get repeated on the next octave, according to the Octave Range parameter.
 
+Placing a [Sustain](sustain) pipe in Chord mode on the left can free up your hands for other duties.
+
 Multiple variations of note sequences can be selected:
 
 | Type                 | Description       |
