@@ -2,13 +2,15 @@
 
 ![sync_delay](https://blokas.io/images/midihub/pipes/sync_delay.svg)
 
-A modifier pipe that drops a given number of Real-Time Clock MIDI messages. The dropped message count can be reset using Play Start message.
+A modifier pipe that drops a given number of Real-Time Clock MIDI messages or produces up to one quarter note worth of Clock messages in an instant to shift forward.
+The shift happens every time MIDI Start message is processed.
+
 Using this pipe some tricky MIDI hardware sync incompatibility issues can be resolved.
 
 | Parameter              | Description                                                  |
 | ---------------------- | ------------------------------------------------------------ |
 | Bypass                 | Whether processing is enabled.                               |
-| Delay by               | The amount of clocks to delay by.                            |
+| Delay by               | The amount of clocks to delay by, or shift forward if the value is negative. |
 
 <span class="blokas-web-hide">
 
