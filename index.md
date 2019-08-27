@@ -24,7 +24,7 @@ On power-up Midihub loads the MIDI Processing Pipelines that were stored in its 
 | MIDI Loopback Latency | Less than 1.5ms | Power | Bus-Powered - Computer or 5V USB Power Supply |
 | Activity LEDs | 4 x MIDI Input, 4 x MIDI Output & 1 x Status | Current Draw | 50mA @ 5.1VDC |
 | Storage | 8 Presets | Dimensions | 75mm x 108mm x 36mm |
-| Other Input | 1 x The Button | | Weight | 285g |
+| Other Input | 1 x The Button | Weight | 285g |
 
 ## The Processing Pipelines
 
