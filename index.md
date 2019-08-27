@@ -18,7 +18,13 @@ On power-up Midihub loads the MIDI Processing Pipelines that were stored in its 
 
 ## Technical Specification
 
-TBD
+| MIDI Paremeters | Value | Other Parameters | Value
+|----|----|----|----|
+| Input/Output Connectors | 8 x DIN-5 Female Sockets & USB-B Port | Enclosure | Powder-Coated 1mm Steel |
+| MIDI Loopback Latency | Less than 1.5ms | Power | Bus-Powered - Computer or 5V USB Power Supply |
+| Activity LEDs | 4 x MIDI Input, 4 x MIDI Output & 1 x Status | Current Draw | 50mA @ 5.1VDC |
+| Other Input | 1 x The Button | Dimensions | 75mm x 108mm x 36mm |
+| | | Weight | 285g |
 
 ## The Processing Pipelines
 
