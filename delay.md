@@ -6,7 +6,7 @@ A modifier pipe that produces delayed notes based on what was played into it. It
 if the Feedback is at 100%, Infinite is enabled, and Delay Time is at some convenient value like 1 Bar.
 
 Each pipe remembers up to 32 notes at a time, including the velocity and length of each note. Note slots are
-reclaimed when notes fade out or has reached the repetitions target. If a new note is played while there's no
+reclaimed when notes fade out or have reached the repetitions target. If a new note is played while there's no
 empty slots available, then the oldest slot will get reused.
 
 All notes are turned off if Stop MIDI message is received, or if either Bypass or Sync parameters get changed.
