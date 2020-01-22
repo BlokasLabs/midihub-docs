@@ -20,7 +20,7 @@ See [The USB MIDI Port Mapping](the_usb_midi_port_mapping.md) for more details.
 
 MIDI controllers with only USB output can't be connected directly to Midihub, however, they can still be used with Midihub if both are connected via a USB host such
 as your PC or something like Raspberry Pi, the host then can forward the MIDI data coming from a USB controller to one (or more) Midihub's USB ports. The utilities
-to achieve this vary with the OS, but to list a few, there's `aconnect` for Linux, 'Audio MIDI Setup' on Mac, 'MIDI-OX' on Windows, and most DAWs provide the functionality
+to achieve this vary with the OS, but to list a few, there's 'aconnect' for Linux, 'Audio MIDI Setup' on Mac, 'MIDI-OX' on Windows, and most DAWs provide the functionality
 to forward MIDI data between connected MIDI ports.
 
 ## The Memory
