@@ -19,7 +19,7 @@ held down notes.
 | Parameter              | Description                        |
 | ---------------------- | ---------------------------------- |
 | Bypass                 | Whether processing is enabled.     |
-| Delay Time             | The amount of time to delay incoming notes. It can be synced to the incoming tempo, or specified in milliseconds. |
+| Delay Time             | The amount of time to delay incoming notes. It can be synced to the incoming tempo, or specified in milliseconds. Can be set to 0 to produce note events immediately. In that case, Infinite parameter is ignored. |
 | Note Length            | The note length to use for every note, if Fixed Length is enabled.  |
 | Repetitions            | The number of times to repeat a note, can be overriden by Infinite parameter.  |
 | Feedback               | The amount of feedback to apply to the velocity of delayed notes. |

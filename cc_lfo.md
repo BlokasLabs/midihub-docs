@@ -4,7 +4,8 @@
 
 A pipe that can be placed both as a Generator or as a Modifier.
 It produces an LFO waveform, as defined by the many parameters,
-on the selected CC value.
+on the selected CC value, Channel 1. Place a [Channel Remap](channel_remap.md) pipe to the
+right of the LFO to change the channel.
 
 If it is placed as a Modifier, it can be synchronized to the beat,
 as well as it can apply modulation to previous CC LFO pipes in the pipeline,
