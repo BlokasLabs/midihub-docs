@@ -22,8 +22,8 @@ It can convert between these message types:
 | Mode                   | The mode sets whether the transformed message should be inserted before the original event, after it or should it be completely replaced. |
 | What                   | Selects the MIDI message kind to convert.                |
 | Into                   | Defines which message to transform it to.                |
-| Data Source 1          | The data source to use for the transformed event's first data byte. Applicable to Note On, Note Off, Control Change, Poly Aftertouch, Program Change and Channel Pressure messages. |
-| Data Source 2          | The data source to use for the transformed event's second data byte. Applicable to Note On, Note Off, Control Change and Poly Aftertouch messages. |
+| [Value for Byte 1]     | The name of this parameter depends on the Into parameter. It may be set to use the values from Argument 1 or Argument 2 parameters, or to use a value from the message being transformed, depending on the What parameter. |
+| [Value for Byte 2]     | Same as above |
 | Argument 1             | The number to use, in case it's selected by Data Source parameter. |
 | Argument 2             | The number to use, in case it's selected by Data Source parameter. |
 | Prioritize Real-Time   | Whether the Real Time messages produced should be prioritized. If off, logical order of the messages is retained. |
