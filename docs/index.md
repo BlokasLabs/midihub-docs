@@ -16,7 +16,7 @@ There's also Virtual Input and Output ports, 8 of each. They are used to forward
 ports are numbered using letters A, B, C, D, E, F, G and H. The USB MIDI ports will appear in your OS as regular MIDI devices. Their display names
 are defined by the OS that is running on your PC.
 
-See [The USB MIDI Port Mapping](the_usb_midi_port_mapping.md) for more details.
+See [The USB MIDI Port Mapping](usb-midi-port-mapping.md) for more details.
 
 MIDI controllers with only USB output can't be connected directly to Midihub, however, they can still be used with Midihub if both are connected via a USB host such
 as your PC or something like Raspberry Pi, the host then can forward the MIDI data coming from a USB controller to one (or more) Midihub's USB ports. The utilities
@@ -77,28 +77,28 @@ The settings are stored in non-volatile memory on closing the Settings dialog us
 
 | I/O Pipes | | |
 |----|----|----|
-| [MIDI Input](midi_input.md) | [MIDI Output](midi_output.md) | [USB Input](usb_input.md) |
-| [USB Output](usb_output.md) | [Virtual Input](virtual_input.md) | [Virtual Output](virtual_output.md) |
+| [MIDI Input](midi-input.md) | [MIDI Output](midi-output.md) | [USB Input](usb-input.md) |
+| [USB Output](usb-output.md) | [Virtual Input](virtual-input.md) | [Virtual Output](virtual-output.md) |
 
 | Gen. Pipes | | |
 |----|----|----|
-| [CC LFO](cc_lfo.md) | [Clock](clock.md) | |
+| [CC LFO](cc-lfo.md) | [Clock](clock.md) | |
 
 | Filter Pipes | | |
 |----|----|----|
-| [Filter](filter.md) | [Channel Filter](filter_ch.md) | [Channel<br/>Range Filter](filter_range_ch.md)
-| [Note Range Filter](filter_range_note.md) | [CC Range Filter](filter_range_cc.md) | |
+| [Filter](filter.md) | [Channel Filter](channel-filter.md) | [Channel<br/>Range Filter](channel-range-filter.md)
+| [Note Range Filter](note-range-filter.md) | [CC Range Filter](cc-range-filter.md) | |
 
 | Remap Pipes | | |
 |----|----|----|
-| [Note Remap](note_remap.md) | [Channel Remap](channel_remap.md) | [CC Remap](cc_remap.md) |
-| [Scale Remap](scale_remap.md) | [Micro Scale](micro_scale.md) |
+| [Note Remap](note-remap.md) | [Channel Remap](channel-remap.md) | [CC Remap](cc-remap.md) |
+| [Scale Remap](scale-remap.md) | [Micro Scale](micro-scale.md) |
 
 | Modifier Pipes | | |
 |----|----|----|
-| [Note Length](note_length.md) | [Note Repeater](note_repeater.md) | [Arpeggiator](arpeggiator.md) |
+| [Note Length](note-length.md) | [Note Repeater](note-repeater.md) | [Arpeggiator](arpeggiator.md) |
 | [Delay](delay.md) | [Transpose](transpose.md) | [Harmonizer](harmonizer.md) |
-| [Dispatcher](dispatcher.md) | [Velocity Amp](velocity_amp.md) | [Equalizer](equalizer.md) |
+| [Dispatcher](dispatcher.md) | [Velocity Amp](velocity-amp.md) | [Equalizer](equalizer.md) |
 | [Sustain](sustain.md) | [Limiter](limiter.md) | [Rescale](rescale.md) |
 | [Transform](transform.md) | [Chance](chance.md) | [Randomizer](randomizer.md) |
-| [Tempo Divider](tempo_divider.md) | [Sync Delay](sync_delay.md) | |
+| [Tempo Divider](tempo-divider.md) | [Sync Delay](sync-delay.md) | |

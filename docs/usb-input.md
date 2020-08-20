@@ -11,7 +11,7 @@ The 4 USB MIDI ports on the computer map to A, B, C, D letters.
 | Bypass    | Whether processing is enabled. |
 | Source    | The source of MIDI data.       |
 
-See [The USB MIDI Port Mapping](the_usb_midi_port_mapping.md) for OS device mapping to USB port letter used by the device.
+See [The USB MIDI Port Mapping](usb-midi-port-mapping.md) for OS device mapping to USB port letter used by the device.
 
 <span class="blokas-web-hide">
 

@@ -52,32 +52,32 @@ copyright: '&copy; 2019 VILNIAUS BLOKAS UAB'
 nav:
 - Introduction: index.md
 - Pipes:
-    - MIDI Input: midi_input.md
-    - MIDI Output: midi_output.md
-    - USB Input: usb_input.md
-    - USB Output: usb_output.md
-    - Virtual Input: virtual_input.md
-    - Virtual Output: virtual_output.md
-    - CC LFO: cc_lfo.md
+    - MIDI Input: midi-input.md
+    - MIDI Output: midi-output.md
+    - USB Input: usb-input.md
+    - USB Output: usb-output.md
+    - Virtual Input: virtual-input.md
+    - Virtual Output: virtual-output.md
+    - CC LFO: cc-lfo.md
     - Clock: clock.md
-    - Note Length: note_length.md
-    - Note Repeater: note_repeater.md
+    - Note Length: note-length.md
+    - Note Repeater: note-repeater.md
     - Arpeggiator: arpeggiator.md
     - Delay: delay.md
     - Transpose: transpose.md
     - Harmonizer: harmonizer.md
     - Dispatcher: dispatcher.md
     - Filter: filter.md
-    - Channel Filter: filter_ch.md
-    - Channel Range Filter: filter_range_ch.md
-    - Note Range Filter: filter_range_note.md
-    - CC Range Filter: filter_range_cc.md
-    - Note Remap: note_remap.md
-    - Channel Remap: channel_remap.md
-    - CC Remap: cc_remap.md
-    - Scale Remap: scale_remap.md
-    - Micro Scale: micro_scale.md
-    - Velocity Amp: velocity_amp.md
+    - Channel Filter: channel-filter.md
+    - Channel Range Filter: channel-range-filter.md
+    - Note Range Filter: note-range-filter.md
+    - CC Range Filter: cc-range-filter.md
+    - Note Remap: note-remap.md
+    - Channel Remap: channel-remap.md
+    - CC Remap: cc-remap.md
+    - Scale Remap: scale-remap.md
+    - Micro Scale: micro-scale.md
+    - Velocity Amp: velocity-amp.md
     - Equalizer: equalizer.md
     - Sustain: sustain.md
     - Limiter: limiter.md
@@ -85,6 +85,32 @@ nav:
     - Transform: transform.md
     - Chance: chance.md
     - Randomizer: randomizer.md
-    - Tempo Divider: tempo_divider.md
-    - Sync Delay: sync_delay.md
-- MIDI Port Mapping: the_usb_midi_port_mapping.md
+    - Tempo Divider: tempo-divider.md
+    - Sync Delay: sync-delay.md
+- MIDI Port Mapping: usb-midi-port-mapping.md
+
+plugins:
+  - search
+  - redirects:
+        redirect_maps:
+            'midi_input.md': 'midi-input.md'
+            'midi_output.md': 'midi-output.md'
+            'usb_input.md': 'usb-input.md'
+            'usb_output.md': 'usb-output.md'
+            'virtual_input.md': 'virtual-input.md'
+            'virtual_output.md': 'virtual-output.md'
+            'cc_lfo.md': 'cc-lfo.md'
+            'note_length.md': 'note-length.md'
+            'note_repeater.md': 'note-repeater.md'
+            'filter_ch.md': 'channel-filter.md'
+            'filter_range_ch.md': 'channel-range-filter.md'
+            'filter_range_note.md': 'note-range-filter.md'
+            'filter_range_cc.md': 'cc-range-filter.md'
+            'note_remap.md': 'note-remap.md'
+            'channel_remap.md': 'channel-remap.md'
+            'cc_remap.md': 'cc-remap.md'
+            'scale_remap.md': 'scale-remap.md'
+            'micro_scale.md': 'micro-scale.md'
+            'tempo_divider.md': 'tempo-divider.md'
+            'sync_delay.md': 'sync-delay.md'
+            'the_usb_midi_port_mapping.md': 'usb-midi-port-mapping.md'
