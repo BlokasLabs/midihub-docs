@@ -26,7 +26,7 @@ See the preview at the bottom of the the Properties panel to visualize how the L
 | Duty Cycle             | The duty cycle of the PWM wave. Not applicable to other waveforms. |
 | Output Enabled         | Whether the output is actually enabled. Output may be disabled while keeping the LFO clock still ticking. |
 | Mode                   | **Free running**: waveform is generated freely.<br/>**Active Mod.**: LFO is actively modulating (offsetting) the incoming CC value of the same id, generating new values even if incoming CC value is not changing.<br/>**Passive Mod.**: LFO is passively modulating (offseting) the incoming CC value of the same id, only on receiving the actual CC value. |
-| Retrigger              | Controls retriggering behavior - LFO aveform can be retriggered on individual notes or on chords. |
+| Retrigger              | Controls retriggering behavior - LFO waveform can be retriggered on individual notes or on chords. |
 | Sync to BPM            | (Only as Modifier) Whether to sync to the incoming BPM clock. |
 | Retrigger on SysCommon | (Only as Modifier) Whether to retrigger on system common messages such as 'start', 'continue', 'song position pointer'. |
 | Start on SysCommon     | (Only as Modifier) Whether to start ticking the LFO clock on system common messages such as 'start', 'continue', 'song position pointer'. |
