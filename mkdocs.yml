@@ -53,6 +53,8 @@ copyright: '&copy; 2019 VILNIAUS BLOKAS UAB'
 
 nav:
 - Introduction: index.md
+- Inserting Pipelines from File: inserting-pipelines-from-file.md
+- Insert Preview: insert-preview.md
 - Pipes:
     - MIDI Input: midi-input.md
     - MIDI Output: midi-output.md
