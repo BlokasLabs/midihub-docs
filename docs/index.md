@@ -60,7 +60,7 @@ Nearly all of the Pipe parameters can be MIDI mapped to external MIDI controller
 Properties view are enabled. If one of them gets clicked on, unless the operation is interrupted, the very next CC message that gets sent to Midihub will get mapped
 to the control. Don't forget to store the preset to memory after mapping changes are done.
 
-Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into the current Preset.
+Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into the current Preset. They may also be imported directly from [Patchstorge](inserting-from-patchstorage.md).
 
 ## The Button
 
