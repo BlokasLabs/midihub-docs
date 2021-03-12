@@ -12,6 +12,8 @@ The incoming values are clipped to fit in range [Minimum;Maximum].
 | Kind                   | Selects the MIDI message kind to process.                |
 | Minimum                | The lowest value.                                        |
 | Maximum                | The highest value.                                       |
+| Any Id?                | Whether to work with all Ids of the set Kind.            |
+| Id                     | If 'Any Id?' is deactivated, the Id of the Note / Control / Channel to work with. |
 
 <span class="blokas-web-hide">
 

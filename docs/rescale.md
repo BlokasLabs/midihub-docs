@@ -14,6 +14,8 @@ First incoming values are clipped at the In range, then they get linearly rescal
 | In High                | The highest value of input range.  |
 | Out Low                | The lowest value of output range.  |
 | Out High               | The highest value of output range. |
+| Any Id?                | Whether to work with all Ids of the set Kind.            |
+| Id                     | If 'Any Id?' is deactivated, the Id of the Note / Control / Channel to work with. |
 
 <span class="blokas-web-hide">
 
