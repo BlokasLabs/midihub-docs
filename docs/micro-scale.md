@@ -21,6 +21,9 @@ Check out the [Scala website](http://www.huygens-fokker.org/scala/),
 | Bypass                 | Whether processing is enabled.             |
 | Scale                  | The micro scale to apply to the incoming notes. |
 | Pitch Bend Depth       | The depth in semitones of the target synthesizer. This parameter should match what is specified in the manual or in the synthesizer configuration. |
+| Base Note              | The base MIDI note used as a reference for the start of the scale. |
+| Base Frequency         | The frequency of the base note. |
+| Auto Frequency         | Initializes Base Frequency based on Base Note's frequency in 440Hz tuning standard. |
 | Use Ch 1               | Use this channel for sending notes and pitch bends. |
 | Use Ch 2               | Same as above.                             |
 | Use Ch 3               | Same as above.                             |
