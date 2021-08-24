@@ -56,6 +56,7 @@ nav:
 - Inserting Pipelines from File: inserting-pipelines-from-file.md
 - Inserting from Patchstorage: inserting-from-patchstorage.md
 - Insert Preview: insert-preview.md
+- MIDI Monitor: midi-monitor.md
 - Pipes:
     - MIDI Input: midi-input.md
     - MIDI Output: midi-output.md

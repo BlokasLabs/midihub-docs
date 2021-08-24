@@ -25,10 +25,10 @@ to forward MIDI data between connected MIDI ports.
 
 ## The Memory
 
-On power-up Midihub loads the MIDI Processing Pipelines that were stored in its Flash memory, preset 1. While editing the pipelines using the editor, changes
-remain in volatile memory only, until the pipeline is 'Stored' in Flash memory of the device via the Toolbar or Device->Store submenu. It's also possible to
-discard the current changes and restore the state by 'Loading' from Flash memory, via the Toolbar or Device->Load menu, making it easy to experiment with the
-pipeline and go back to previous state.
+On power-up Midihub loads the MIDI Processing Pipelines that were stored in its Flash memory, the last stored preset.
+While editing the pipelines using the editor, changes remain in volatile memory only, until the pipeline is 'Stored' in Flash memory of the device
+via the Toolbar or Device->Store submenu. It's also possible to discard the current changes and restore the state by 'Loading' from Flash memory,
+via the Toolbar or Device->Load menu, making it easy to experiment with the pipeline and go back to previous state.
 
 Backups of all of the current Midihub state, including all of the presets, microtunings and settings, may be exported and imported via the 'Device -> Export
 Everything' and 'Device -> Import Everything' menus while Midihub is connected to the editor.
@@ -48,7 +48,7 @@ Everything' and 'Device -> Import Everything' menus while Midihub is connected t
 ![editor-win](https://blokas.io/images/midihub/midihub-editor-win.png)
 
 MIDI data flows through Midihub Processing Pipelines from left to right. All MIDI data enters the pipeline through the leftmost Input or Generator pipes, and exits
-through the rightmost Output pipes. Processing the same MIDI event multiple times and in different ways is possible by making use of Virtual Input / Output ports.
+through the rightmost Output pipes. [MIDI Monitor](midi-monitor.md) pane can be used to see the data flow in real time. Processing the same MIDI event multiple times and in different ways is possible by making use of Virtual Input / Output ports.
 The data sent to a Virtual Output port will appear again in the matching Virtual Input ports, enabling implementation of keyboard splits or automatically generating
 chords. Pipes that modify or filter MIDI data can be placed in between the Input and Output ports. In case a pipe discards the MIDI data flowing through it, it won't
 be forwarded to the pipe on the right, dropping the event.
