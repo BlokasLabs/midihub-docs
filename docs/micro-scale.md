@@ -24,6 +24,7 @@ Check out the [Scala website](http://www.huygens-fokker.org/scala/),
 | Base Note              | The base MIDI note used as a reference for the start of the scale. |
 | Base Frequency         | The frequency of the base note. |
 | Auto Frequency         | Initializes Base Frequency based on Base Note's frequency in 440Hz tuning standard. |
+| Always Send Pitch Bend | Force sending Pitch Bend messages. Enable this parameter only if the receiving device is playing wrong notes. This disables data size optimization which relies on receiving device memorizing last Pitch Bend value on a channel. |
 | Use Ch 1               | Use this channel for sending notes and pitch bends. |
 | Use Ch 2               | Same as above.                             |
 | Use Ch 3               | Same as above.                             |
