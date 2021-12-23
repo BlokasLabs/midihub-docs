@@ -8,6 +8,7 @@ The exit point of MIDI data. The data that reaches this pipe will be sent throug
 | --------- | ------------------------------ |
 | Bypass    | Whether processing is enabled. Prefer bypassing Input pipes. |
 | Destination | The destination of MIDI data. |
+| Name      | The name of the port, see [Port Naming](port-naming.md) for more details. |
 
 <span class="blokas-web-hide">
 

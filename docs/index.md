@@ -13,14 +13,14 @@ latency and without involving any processing on the PC. It enables expanding the
 The Midihub has 4 MIDI input ports and 4 MIDI output ports and a single USB port which provides multiple virtual cables for the communication with the PC:
 4 USB MIDI inputs and 4 USB MIDI outputs, as well as an internal USB serial port to be used for communicating with the editor only.
 There's also Virtual Input and Output ports, 8 of each. They are used to forward the MIDI events to further Processing Pipelines. The different kinds of
-ports are numbered using letters A, B, C, D, E, F, G and H. The USB MIDI ports will appear in your OS as regular MIDI devices. Their display names
+ports are numbered using letters A, B, C, D, E, F, G and H. The ports can be [renamed](port-naming.md) in the Editor. The USB MIDI ports will appear in your OS as regular MIDI devices. Their display names
 are defined by the OS that is running on your PC.
 
 See [The USB MIDI Port Mapping](usb-midi-port-mapping.md) for more details.
 
 MIDI controllers with only USB output can't be connected directly to Midihub, however, they can still be used with Midihub if both are connected via a USB host such
 as your PC or something like Raspberry Pi, the host then can forward the MIDI data coming from a USB controller to one (or more) Midihub's USB ports. The utilities
-to achieve this vary with the OS, but to list a few, there's 'aconnect' for Linux, 'Audio MIDI Setup' on Mac, 'MIDI-OX' on Windows, and most DAWs provide the functionality
+to achieve this vary with the OS, but to list a few, there's 'aconnect' for Linux, 'MIDI Patchbay' on Mac, 'MIDI-OX' on Windows, and most DAWs provide the functionality
 to forward MIDI data between connected MIDI ports.
 
 ## The Memory

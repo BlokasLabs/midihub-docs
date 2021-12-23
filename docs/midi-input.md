@@ -8,6 +8,7 @@ The entry point of MIDI data. The data received through MIDI IN connector with t
 | --------- | ------------------------------ |
 | Bypass    | Whether processing is enabled. |
 | Source    | The source of MIDI data.       |
+| Name      | The name of the port, see [Port Naming](port-naming.md) for more details. |
 
 <span class="blokas-web-hide">
 

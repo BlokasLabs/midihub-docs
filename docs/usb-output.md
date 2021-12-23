@@ -10,6 +10,7 @@ The 4 USB MIDI ports on the computer map to A, B, C, D letters.
 | --------- | ------------------------------ |
 | Bypass    | Whether processing is enabled. Prefer bypassing Input pipes. |
 | Destination | The destination of MIDI data. |
+| Name      | The name of the port, see [Port Naming](port-naming.md) for more details. |
 
 See [The USB MIDI Port Mapping](usb-midi-port-mapping.md) for OS device mapping to USB port letter used by the device.
 

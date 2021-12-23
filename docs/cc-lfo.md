@@ -31,6 +31,7 @@ See the preview at the bottom of the the Properties panel to visualize how the L
 | Retrigger on SysCommon | (Only as Modifier) Whether to retrigger on system common messages such as 'start', 'continue', 'song position pointer'. |
 | Start on SysCommon     | (Only as Modifier) Whether to start ticking the LFO clock on system common messages such as 'start', 'continue', 'song position pointer'. |
 | Manual Retrigger       | A button to manually retrigger the LFO. It can be mapped to a control which guarantees low latency to take effect as soon as the mapped control is moved. |
+| One Shot               | Produce only one cycle of the wave. It has to be retriggered using Manual Retrigger parameter, or according to Retrigger mode parameter to produce another cycle of the wave. |
 
 <span class="blokas-web-hide">
 

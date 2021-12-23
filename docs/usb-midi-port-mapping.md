@@ -2,6 +2,9 @@
 
 The following table contains the Midihub USB Input / Output letter mapping to the device name used by OS.
 
+Renaming of the USB ports in the Editor unfortunately does not rename ports as seen by the OS,
+as the drivers for all major OSes ignore USB port name information as provided by the device.
+
 ## Windows
 
 | USB Port | Input Port Name           | Output Port Name          |
@@ -28,3 +31,7 @@ The following table contains the Midihub USB Input / Output letter mapping to th
 | USB B    | hw:n,0,1        | hw:n,0,1         |
 | USB C    | hw:n,0,2        | hw:n,0,2         |
 | USB D    | hw:n,0,3        | hw:n,0,3         |
+
+## See Also
+
+[Port Naming](port-naming.md)

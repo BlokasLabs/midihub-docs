@@ -8,6 +8,7 @@ The entry point of Virtual MIDI data. The data that reached the matching letter 
 | --------- | ------------------------------ |
 | Bypass    | Whether processing is enabled. |
 | Source    | The source of MIDI data.       |
+| Name      | The name of the port, see [Port Naming](port-naming.md) for more details. |
 
 <span class="blokas-web-hide">
 
