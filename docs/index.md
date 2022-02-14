@@ -8,7 +8,7 @@ Midihub is the backbone of your MIDI hardware interconnectivity. It has MIDI DIN
 and/or communicating with the PC and its software. All MIDI data flows through the customizable MIDI Processing Pipelines within the device with extremely low
 latency and without involving any processing on the PC. It enables expanding the capabilities of your setup and makes interop between MIDI hardware easy.
 
-## Input / Output
+### Input / Output
 
 The Midihub has 4 MIDI input ports and 4 MIDI output ports and a single USB port which provides multiple virtual cables for the communication with the PC:
 4 USB MIDI inputs and 4 USB MIDI outputs, as well as an internal USB serial port to be used for communicating with the editor only.
@@ -23,7 +23,7 @@ as your PC or something like Raspberry Pi, the host then can forward the MIDI da
 to achieve this vary with the OS, but to list a few, there's 'aconnect' for Linux, 'MIDI Patchbay' on Mac, 'MIDI-OX' on Windows, and most DAWs provide the functionality
 to forward MIDI data between connected MIDI ports.
 
-## The Memory
+### The Memory
 
 On power-up Midihub loads the MIDI Processing Pipelines that were stored in its Flash memory, the last stored preset.
 While editing the pipelines using the editor, changes remain in volatile memory only, until the pipeline is 'Stored' in Flash memory of the device
@@ -33,7 +33,20 @@ via the Toolbar or Device->Load menu, making it easy to experiment with the pipe
 Backups of all of the current Midihub state, including all of the presets, microtunings and settings, may be exported and imported via the 'Device -> Export
 Everything' and 'Device -> Import Everything' menus while Midihub is connected to the editor.
 
-## Technical Specification
+### The Button
+
+Clicking The Button on Midihub between 1-8 times allows switching between 1-8 presets.
+
+The Button can be configured to do one of the following actions when held down for half a second (X indicates the channel number):
+
+1. Send reset controller message to all 16 channels of selected ports (BXh 79h 00h).
+2. Send system reset message to selected ports (FFh).
+3. Send all notes off message to all 16 channels of selected ports (BXh 7Bh 00h).
+4. Send custom data to selected ports (up to 32 bytes).
+
+The settings are stored in non-volatile memory on closing the Settings dialog using the 'OK' button.
+
+### Technical Specification
 
 | MIDI Paremeters | Value | Other Parameters | Value
 |----|----|----|----|
@@ -43,7 +56,24 @@ Everything' and 'Device -> Import Everything' menus while Midihub is connected t
 | Storage | 8 Presets | Dimensions | 75mm x 108mm x 36mm |
 | Other Input | 1 x The Button | Weight | 285g |
 
-## The Processing Pipelines
+## The Midihub Editor
+
+The Midihub Editor lets you customize Midihub’s processing logic by laying down the processing pipelines using different Pipes, sort of MIDI effects. The interface is based on intuitive Drag & Drop model. Every pipeline starts from an Input or Generator pipe, from which MIDI data flows to the right, until it ends up in an Output pipe. You can play around with the Editor even without the device connected. Midihub Editor works on all major platforms - Windows, macOS and Linux!
+
+<span class="blokas-editor-hide">
+
+### Downloads
+
+Download the latest Editor version for your platform.
+
+- [Editor for Windows](https://blokas.io/midihub/downloads/latest/windows/)
+- [Editor for macOS](https://blokas.io/midihub/downloads/latest/mac/)
+- [Editor for Linux](https://blokas.io/midihub/downloads/latest/linux/)
+- [Editor for Raspberry Pi](https://blokas.io/midihub/downloads/latest/linux_arm/)
+
+</span>
+
+### The Processing Pipelines
 
 ![editor-win](https://blokas.io/images/midihub/midihub-editor-win.png)
 
@@ -62,20 +92,7 @@ to the control. Don't forget to store the preset to memory after mapping changes
 
 Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into the current Preset. They may also be imported directly from [Patchstorge](inserting-from-patchstorage.md).
 
-## The Button
-
-Clicking The Button on Midihub between 1-8 times allows switching between 1-8 presets.
-
-The Button can be configured to do one of the following actions when held down for half a second (X indicates the channel number):
-
-1. Send reset controller message to all 16 channels of selected ports (BXh 79h 00h).
-2. Send system reset message to selected ports (FFh).
-3. Send all notes off message to all 16 channels of selected ports (BXh 7Bh 00h).
-4. Send custom data to selected ports (up to 32 bytes).
-
-The settings are stored in non-volatile memory on closing the Settings dialog using the 'OK' button.
-
-## The List of Pipes
+### The List of Pipes
 
 | I/O Pipes | | |
 |----|----|----|
