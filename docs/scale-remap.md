@@ -9,6 +9,7 @@ It works on the basis of 12 notes per octave.
 | ---------------------- | ------------------------------------------ |
 | Bypass                 | Whether processing is enabled.             |
 | Base                   | The base note of the scale.                |
+| Transpose C to Base    | If enabled, transposes the C scale played according to the Base parameter before mapping the notes to scale. |
 | Preset                 | Built-in scale preset. Not mappable.       |
 | I                      | Remap this degree to the specified degree. |
 | I#                     | Same as above.                             |

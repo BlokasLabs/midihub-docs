@@ -64,7 +64,7 @@ The Midihub Editor lets you customize Midihub’s processing logic by laying dow
 
 ### Downloads
 
-Download the latest Editor version for your platform.
+Download the latest version of the Editor for your platform:
 
 - [Editor for Windows](https://blokas.io/midihub/downloads/latest/windows/)
 - [Editor for macOS](https://blokas.io/midihub/downloads/latest/mac/)
