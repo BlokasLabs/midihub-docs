@@ -58,7 +58,8 @@ The settings are stored in non-volatile memory on closing the Settings dialog us
 
 ## The Midihub Editor
 
-The Midihub Editor lets you customize Midihub’s processing logic by laying down the processing pipelines using different Pipes, sort of MIDI effects. The interface is based on intuitive Drag & Drop model. Every pipeline starts from an Input or Generator pipe, from which MIDI data flows to the right, until it ends up in an Output pipe. You can play around with the Editor even without the device connected. Midihub Editor works on all major platforms - Windows, macOS and Linux!
+The Midihub Editor lets you customize Midihub's processing logic by laying down the processing pipelines using different Pipes, sort of MIDI effects.
+The interface is based on intuitive Drag & Drop model. Every pipeline starts from an Input or Generator pipe, from which MIDI data flows to the right, until it ends up in an Output pipe. You can play around with the Editor even without the device connected. Midihub Editor works on all major platforms - Windows, macOS and Linux!
 
 <span class="blokas-editor-hide">
 
@@ -90,7 +91,7 @@ Nearly all of the Pipe parameters can be MIDI mapped to external MIDI controller
 Properties view are enabled. If one of them gets clicked on, unless the operation is interrupted, the very next CC message that gets sent to Midihub will get mapped
 to the control. Don't forget to store the preset to memory after mapping changes are done.
 
-Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into the current Preset. They may also be imported directly from [Patchstorge](inserting-from-patchstorage.md).
+Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into the current Preset. They may also be imported directly from [Patchstorage](inserting-from-patchstorage.md).
 
 ### The List of Pipes
 
