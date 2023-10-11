@@ -33,7 +33,11 @@ via the Toolbar or Device->Load menu, making it easy to experiment with the pipe
 Backups of all of the current Midihub state, including all of the presets, microtunings and settings, may be exported and imported via the 'Device -> Export
 Everything' and 'Device -> Import Everything' menus while Midihub is connected to the editor.
 
-### The Button
+### Device Settings
+
+Midihub's settings can be set via Device -> Settings menu. The settings are stored in non-volatile memory on closing the Settings dialog using the 'OK' button.
+
+#### The Button
 
 Clicking The Button on Midihub between 1-8 times allows switching between 1-8 presets.
 
@@ -44,7 +48,13 @@ The Button can be configured to do one of the following actions when held down f
 3. Send all notes off message to all 16 channels of selected ports (BXh 7Bh 00h).
 4. Send custom data to selected ports (up to 32 bytes).
 
-The settings are stored in non-volatile memory on closing the Settings dialog using the 'OK' button.
+#### External Preset Change
+
+You may make a particular Midihub's port to listen for Program Change messages on a particular channel. PC0 - PC7 messages switch between presets 1 - 8.
+
+#### Initial Preset
+
+Depending on the Initial Preset setting, upon powering on, Midihub either loads the very first preset, or the last preset that was saved to memory. This way, you may make Midihub by default load, say, Preset 7 upon powering on, if this was the last preset stored to memory before turning it off.
 
 ### Technical Specification
 
@@ -84,14 +94,22 @@ The data sent to a Virtual Output port will appear again in the matching Virtual
 chords. Pipes that modify or filter MIDI data can be placed in between the Input and Output ports. In case a pipe discards the MIDI data flowing through it, it won't
 be forwarded to the pipe on the right, dropping the event.
 
+Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into the current Preset. They may also be imported directly from [Patchstorage](inserting-from-patchstorage.md).
+
+The Pipelines are built by dragging in Pipe icons from Pipes pane into the main canvas. To customize functionality of each pipe, the parameters of the currently selected pipe can be changed in the Properties pane. To make copies of a Pipe, you may start dragging one in the main canvas with the mouse while keeping Alt or Ctrl keys held down. If Shift is held as well the mappings get copied too. Entire pipeline can be duplicated via the mouse right click menu.
+
+### Pipe Parameters
+
 Every pipe has a 'Bypass' parameter which, when enabled, bypasses the processing of the pipe, so it passes the incoming data to the right unmodified. If the leftmost
 pipe is bypassed, the entire pipeline gets disabled.
 
-Nearly all of the Pipe parameters can be MIDI mapped to external MIDI controllers. While Midihub is connected, the Map buttons next to the parameter value in the
-Properties view are enabled. If one of them gets clicked on, unless the operation is interrupted, the very next CC message that gets sent to Midihub will get mapped
-to the control. Don't forget to store the preset to memory after mapping changes are done.
+Nearly all of the Pipe parameters can be MIDI mapped to MIDI controllers. While Midihub is connected, the Map buttons next to the parameter values in the
+Properties view are enabled. If one of them gets clicked on, unless the operation is interrupted, the very next CC or Note message that gets sent to Midihub will get mapped
+to the parameter. Don't forget to store the preset to memory after mapping changes are done.
 
-Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into the current Preset. They may also be imported directly from [Patchstorage](inserting-from-patchstorage.md).
+In addition to that, there's also an Add button that can be used to add a parameter mapping to a particular MIDI CC or Note message. Afterwards, the mappings can be edited using the Edit button.
+
+Events that are mapped to physical DIN-5 or USB ports take effect as soon as they are received by Midihub. Preprocessing the events that are mapped to parameters can be done by manually creating mappings to Virtual Output ports. This way Midihub's Pipes can be used to preprocess the message before it is used to change a mapped parameter. The virtual mappings affect the mapped parameters as soon as a mapped MIDI event reaches the appropriate Virtual Output Pipe.
 
 ### The List of Pipes
 
@@ -100,7 +118,7 @@ Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into t
 | [MIDI Input](midi-input.md) | [MIDI Output](midi-output.md) | [USB Input](usb-input.md) |
 | [USB Output](usb-output.md) | [Virtual Input](virtual-input.md) | [Virtual Output](virtual-output.md) |
 
-| Gen. Pipes | | |
+| Generator Pipes | | |
 |----|----|----|
 | [CC LFO](cc-lfo.md) | [Clock](clock.md) | |
 
