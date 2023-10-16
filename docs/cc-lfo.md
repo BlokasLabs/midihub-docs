@@ -36,14 +36,14 @@ See the preview at the bottom of the the Properties panel to visualize how the L
 
 ## Sample & Hold Waveform
 
-The Sample & Hold waveform is special, as internally it's using PWM waveform to sample CC value on PWM's rising and falling edges.
-In case the S&H LFO is in Generator position, the input used for sampling is the Noise waveform. In case it is in Modifier position,
-it uses the last received CC value for sampling. That means you can use another LFO to the left of the S&H LFO to customize the input waveform
-used for sampling, or even use CCs sent from your DAW or MIDI controller as sample input.
+The Sample & Hold waveform is special, as internally it uses a PWM waveform's rising and falling edges to sample CC values.
+If it is placed as a Generator, the S&H LFO uses Noise as a sampling input.
+If it is placed as a Modifier, however, the S&H LFO needs a CC input in all three of its modes (including Free Running mode).
+Here it uses the last received CC value for sampling: this CC input might be direct or modified from an external source, or from another Midihub LFO.
 
-If you'd like to use tempo-synced S&H LFO using Noise for input, simply place Noise LFO first, and the S&H LFO to the right, make sure that Clock messages reach the sycned S&H LFO pipe.
+For example, a tempo-synced Free Running S&H LFO might use a Noise LFO to sample and hold random values every bar (at points set by Phase, Duty Cycle and Rate)
 
-Internal use of a PWM waveform to trigger reading a new sample enables use of Duty Cycle and Phase parameters during performance for interesting effects.
+When a S&H LFO is in Active/Passive Mod Mode, Depth represents how much the output value's displacement from 64 should be 'amplified'. For example, 68 -> 68 at 0%, 68 -> 70 at 50%, 68 -> 72 at 100%.
 
 <span class="blokas-web-hide">
 

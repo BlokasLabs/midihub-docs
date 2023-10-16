@@ -96,18 +96,22 @@ be forwarded to the pipe on the right, dropping the event.
 
 Pipelines from a file may be [imported](inserting-pipelines-from-file.md) into the current Preset. They may also be imported directly from [Patchstorage](inserting-from-patchstorage.md).
 
-The Pipelines are built by dragging in Pipe icons from Pipes pane into the main canvas. To customize functionality of each pipe, the parameters of the currently selected pipe can be changed in the Properties pane. To make copies of a Pipe, you may start dragging one in the main canvas with the mouse while keeping Alt or Ctrl keys held down. If Shift is held as well the mappings get copied too. Entire pipeline can be duplicated via the mouse right click menu.
+The Pipelines are built by dragging in Pipe icons from Pipes pane into the main canvas. To customize functionality of each pipe, the parameters of the currently selected pipe can be changed in the Properties pane. Holding down Alt or Ctrl keys while dragging a Pipe will create a copy in a new location. Holding down Shift as well copies the mappings along with the Pipe. The mouse right-click menu shows options for duplicating the entire pipeline.
+
+If you are running two instances of Midihub Editor, Alt/Ctrl-drag may be used to copy a pipe from one canvas to the other.
 
 ### Pipe Parameters
 
 Every pipe has a 'Bypass' parameter which, when enabled, bypasses the processing of the pipe, so it passes the incoming data to the right unmodified. If the leftmost
 pipe is bypassed, the entire pipeline gets disabled.
 
-Nearly all of the Pipe parameters can be MIDI mapped to MIDI controllers. While Midihub is connected, the Map buttons next to the parameter values in the
-Properties view are enabled. If one of them gets clicked on, unless the operation is interrupted, the very next CC or Note message that gets sent to Midihub will get mapped
-to the parameter. Don't forget to store the preset to memory after mapping changes are done.
+Almost every Pipe parameter can be MIDI mapped to MIDI controllers. While Midihub is connected, the Map buttons next to the parameter values in the Properties view are enabled.
+When a Map button is clicked, a dialog appears: "Mapping... Send a Note or CC message to any of Midihub's input ports:"
+Unless interrupted, Midihub will map the next external CC or Note message to the parameter. Don't forget to store the preset to memory after mapping changes are done.
 
-In addition to that, there's also an Add button that can be used to add a parameter mapping to a particular MIDI CC or Note message. Afterwards, the mappings can be edited using the Edit button.
+Alongside each Map button, there is an Add button. This button allows manual setting of parameter mappings for both physical inputs and virtual outputs.
+Afterwards, the mappings can be edited using the Edit button. The Add button can also be used when Midihub is disconnected.
+Settings within the Add/Edit dialog are maintained, allowing the same settings to be used for multiple successive parameters.
 
 Events that are mapped to physical DIN-5 or USB ports take effect as soon as they are received by Midihub. Preprocessing the events that are mapped to parameters can be done by manually creating mappings to Virtual Output ports. This way Midihub's Pipes can be used to preprocess the message before it is used to change a mapped parameter. The virtual mappings affect the mapped parameters as soon as a mapped MIDI event reaches the appropriate Virtual Output Pipe.
 

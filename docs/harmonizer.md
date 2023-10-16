@@ -9,6 +9,7 @@ Interval +0 (the incoming note) is played if "Play Root Note?" is enabled.
 If two or more intervals are of the same value, only one note of that interval gets produced.
 
 The produced chords can be inverted up or down by adjusting the Inversion parameter.
+Adjusting the Inversion parameter beyond the number of notes harmonized creates octaves of inversions.
 
 | Parameter              | Description                    |
 | ---------------------- | ------------------------------ |
