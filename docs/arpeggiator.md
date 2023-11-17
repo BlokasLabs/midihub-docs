@@ -23,9 +23,11 @@ Multiple variations of note sequences can be selected:
 |  Low Up              | Repeat the low note every 2nd time while progressing up. |
 |  Low Up and Down     | Repeat the low not every 2nd time while progressing up, then down. 4 or more notes needed. |
 |  High Up             | Repeat the high note every 2nd time while progressing up. |
-|  High Up And Down    | Repeat the high not every 2nd time while progressing up, then down. 4 or more notes needed. |
+|  High Up and Down    | Repeat the high not every 2nd time while progressing up, then down. 4 or more notes needed. |
 |  Chords              | Play all the notes at once, for use with Octave parameter. |
 |  Random              | Play random notes based on the held down keys and octave range. |
+|  Entirely Up then Down | Similar to Up and Down, except it goes to the end of the Octave Range before going back down. |
+|  Entirely Down then Up | Similar to Down and Up, except it goes to the end of the Octave Range before going back up. |
 
 | Parameter              | Description                        |
 | ---------------------- | ---------------------------------- |

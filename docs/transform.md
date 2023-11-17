@@ -27,7 +27,7 @@ It can convert between these message types:
 | Parameter              | Description                                              |
 | ---------------------- | -------------------------------------------------------- |
 | Bypass                 | Whether processing is enabled.                           |
-| Mode                   | The mode sets whether the transformed message should be inserted before the original event, after it or should it be completely replaced. |
+| Mode                   | The mode sets whether the transformed message should be inserted before the original event, after it, replace it, or drop the event. |
 | What                   | Selects the MIDI message kind to convert.                |
 | Into                   | Defines which message to transform it to.                |
 | [Value for Byte 1]     | The name of this parameter depends on the Into parameter. It may be set to use the values from Argument 1 or Argument 2 parameters, or to use a value from the message being transformed, depending on the What parameter. |

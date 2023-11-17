@@ -5,6 +5,8 @@ Each Midihub can have a set of device-default port names (only for non-virtual p
 Each preset has another set of port names (virtual port names too). If the same port name is set in the Preset as in the default set, it will override
 the device-default port name.
 
+The USB port names as shown by the host OS can be renamed too, see [USB MIDI Port Mapping](usb-midi-port-mapping.md) for more details.
+
 It's a good idea to rename the physical ports in the device defaults, and virtual ports in the preset memory, as that keeps presets easier to reuse, and
 changing physical connections and their names easier across all presets in memory.
 
@@ -22,7 +24,6 @@ Here's a table showing what the resulting name of MIDI A input will be, dependin
 The names can be imported through Preset -> Import Port Names... menu, Device -> Import Default Port Names... and through [Insert Preview](insert-preview.md) dialog's Merge Names button.
 
 When importing/merging, a dialog will appear that allows for selecting which name to use for each port with different names (or entering a custom one).
-
 
 ## See Also
 
