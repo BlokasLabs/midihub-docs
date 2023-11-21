@@ -33,6 +33,7 @@ repo_name: 'midihub-docs'
 repo_url: 'https://github.com/BlokasLabs/midihub-docs/'
 markdown_extensions:
   - meta
+  - attr_list
   - toc:
       permalink: ''
   - pymdownx.arithmatex

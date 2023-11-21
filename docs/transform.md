@@ -6,28 +6,20 @@ A modifier pipe that transforms particular kind of MIDI messages into the desire
 
 It can convert between these message types:
 
-* Note On
-* Note Off
-* Note On & Note Off (useful when remapping the note number)
-* Control Change
-* Program Change
-* Poly Aftertouch
-* Channel Pressure
-* Pitch Bend
-* Start
-* Continue
-* Stop
-* Song Position Pointer
-* Song Select
-* Tune Request
-* Clock
-* Active Sense
-* Reset
+| What / Into Values | | |
+| ---- | ---- | ---- |
+| Note On & Note Off (useful when remapping the note number) {colspan="3"}| | |
+| Note On | Note Off | Reset |
+| Control Change   | Program Change | Poly Aftertouch |
+| Channel Pressure | Pitch Bend     | Start |
+| Continue         | Stop           | Song Position Pointer |
+| Song Select      | Tune Request   | Clock |
+| Active Sense     |                |       |
 
 | Parameter              | Description                                              |
 | ---------------------- | -------------------------------------------------------- |
 | Bypass                 | Whether processing is enabled.                           |
-| Mode                   | The mode sets whether the transformed message should be inserted before the original event, after it, replace it, or drop the event. |
+| Mode                   | The mode sets whether the transformed message should be inserted before the original event, after it, replace it, or whether the original event should simply be dropped (In this last mode, Transform acts as a specialized filter; transforming the incoming message to "nothing" as it were!). |
 | What                   | Selects the MIDI message kind to convert.                |
 | Into                   | Defines which message to transform it to.                |
 | Set Channel to         | The selector of the value to use for the resulting message's Channel. See the below paragraph for extended description. |
@@ -53,13 +45,15 @@ When the Transform is being performed, there's up to 3 fields of the MIDI messag
 * **Arg1** - the value set in **Argument 1**. (Range: 0 - 127)
 * **Arg2** - the value set in **Argument 2**. (Range: 0 - 127)
 * **Ch. Arg** - the value set in **Channel Argument**. (Range: 1 - 16)
-* **[Data Byte 1 (e.g. Note Number)]** - the name is dynamic and depends on the **What** parameter. (Range: 0 - 127)
-* **[Data Byte 2 (e.g. Note Velocity)]** - actual name depends on the **What** parameter. (Range: 0 - 127)
+* **[Data Byte 1 (e.g. Note Number)]** - the 1st data value from the original message. The name is dynamic and depends on the **What** parameter. (Range: 0 - 127)
+* **[Data Byte 2 (e.g. Note Velocity)]** - the 2nd data value from the original message. The name depends on the **What** parameter. (Range: 0 - 127)
 * **Incoming Ch.** - the channel of the original message. (Range: 1 - 16)
 
-When producing the new message, the Transform pipe picks the values for each necessary message's field according to the appropriate selector.
+When producing the new message, the Transform pipe picks the values for each necessary message's field according to the appropriate selector, scaling whenever the incoming and outgoing ranges differ:
 
-As the range of channel numbers in MIDI is 1 - 16, but data values have the range of 0 - 127, it's necessary to automatically rescale between these ranges whenever the target field's range and the selected value range differ. For example, if you're transforming a Note On into a CC and want the CC's value to be set according to the original message's Channel number ('**Set Value to**' selector set as '**Incoming Ch.**'), for incoming message's channels 1, 5 and 16, you'll see the CC values 0, 40 and 120 respectively. If you'd have a Transform set up to do the inreverse - use the incoming CC's Value byte for the Channel number selector, you'd see the exact inverse - CC values 0, 40 and 120 would produce Channel numbers 1, 5 and 16 respectively.
+As the range of channel numbers in MIDI is 1 - 16, but data values have a range of 0 - 127, it is necessary to rescale between the two ranges.
+
+For example, if you transform a Note On into a CC and assign the CC's *value* to be set according to the Note On *Channel number* ('**Set Value to**' selector set to '**Incoming Ch.**'), then when incoming notes' channels equal 1, 2, 3, 15 and 16, you'll see the CC values 0, 8, 16, 112 and 120, respectively. When Transform is set up to do the opposite - use the incoming CC's Value byte for the Channel number selector, you will see the inverse - CC values 0, 8, 16, 112 and 120 would produce Channel numbers 1, 2, 3, 15 and 16, respectively.
 
 <span class="blokas-web-hide">
 
