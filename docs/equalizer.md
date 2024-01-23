@@ -22,6 +22,8 @@ See the preview at the bottom of the the Properties panel to see how the curve l
 | Medium                 | Same as above.                                           |
 | High                   | Same as above.                                           |
 | Kind                   | Selects the MIDI message kind to process. **Velocity (Note #)** modifies the velocity of the notes based on the note number. The other kinds apply the curve on the value based on itself. |
+| Any Id / Channel ?     | Depending on the Kind parameter, whether to affect MIDI messages with any Id (for messages that have a Note or CC number) or Channel (Pitch Bend and Channel Pressure). |
+| Id / Channel           | The particular Id or Channel to affect, if **Any Id / Channel** parameter is off. This allows chaining multiple Equalizer pipes in a single pipeline as well as intermixing with other pipes. |
 
 <span class="blokas-web-hide">
 
