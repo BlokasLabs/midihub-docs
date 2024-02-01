@@ -39,5 +39,3 @@ Congratulations! You are now ready to start laying your first Midihub pipeline! 
 - ["New to Midihub" tutorial series](https://community.blokas.io/t/start-here-new-to-midihub/4986/1){target=_blank} (highly recommended)
 - [Video tutorials by CYLVESTER](https://www.youtube.com/watch?v=EePI1_8vJcY&list=PLJ_jK-Jtb1AElnEz_rtkwCdhRFsGNjX0Z){target=_blank}
 - [Presets library on Patchstorage](https://patchstorage.com/platform/midihub/){target=_blank}
-- [Community forum](https://community.blokas.io/c/midihub/11){target=_blank}
-
