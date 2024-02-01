@@ -19,10 +19,10 @@ Upon unboxing your Midihub, you'll find:
 ![midihub-editor](https://blokas.io/images/midihub/midihub-editor-mac.png)
 
 1. Download the latest version of the Editor for your platform:
-    - [Editor for Windows](https://blokas.io/midihub/downloads/latest/windows/)
-    - [Editor for macOS](https://blokas.io/midihub/downloads/latest/mac/)
-    - [Editor for Linux](https://blokas.io/midihub/downloads/latest/linux/)
-    - [Editor for Raspberry Pi](https://blokas.io/midihub/downloads/latest/linux_arm/)
+    - [Editor for Windows](https://blokas.io/midihub/downloads/latest/windows/){target=_blank}
+    - [Editor for macOS](https://blokas.io/midihub/downloads/latest/mac/){target=_blank}
+    - [Editor for Linux](https://blokas.io/midihub/downloads/latest/linux/){target=_blank}
+    - [Editor for Raspberry Pi](https://blokas.io/midihub/downloads/latest/linux_arm/){target=_blank}
 1. Launch the downloaded file and follow the on-screen setup instructions.
 
 ## Connecting Midihub to Your Computer
@@ -36,8 +36,8 @@ Upon unboxing your Midihub, you'll find:
 
 Congratulations! You are now ready to start laying your first Midihub pipeline! Here are a few resources that will help you get going:
 
-- ["New to Midihub" tutorial series](https://community.blokas.io/t/start-here-new-to-midihub/4986/1) (highly recommended)
-- [Video tutorials by CYLVESTER](https://www.youtube.com/watch?v=EePI1_8vJcY&list=PLJ_jK-Jtb1AElnEz_rtkwCdhRFsGNjX0Z)
-- [Presets library on Patchstorage](https://patchstorage.com/platform/midihub/)
-- [Community forum](https://community.blokas.io/c/midihub/11)
+- ["New to Midihub" tutorial series](https://community.blokas.io/t/start-here-new-to-midihub/4986/1){target=_blank} (highly recommended)
+- [Video tutorials by CYLVESTER](https://www.youtube.com/watch?v=EePI1_8vJcY&list=PLJ_jK-Jtb1AElnEz_rtkwCdhRFsGNjX0Z){target=_blank}
+- [Presets library on Patchstorage](https://patchstorage.com/platform/midihub/){target=_blank}
+- [Community forum](https://community.blokas.io/c/midihub/11){target=_blank}
 
