@@ -53,7 +53,9 @@ markdown_extensions:
 copyright: "&copy; 2019-2022 VILNIAUS BLOKAS UAB"
 
 nav:
-  - Introduction: index.md
+  - Quick Start: index.md
+  - The Device: device.md
+  - The Editor: editor.md
   - Inserting Pipelines from File: inserting-pipelines-from-file.md
   - Inserting from Patchstorage: inserting-from-patchstorage.md
   - Insert Preview: insert-preview.md
