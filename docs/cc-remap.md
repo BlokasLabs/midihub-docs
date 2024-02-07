@@ -17,6 +17,6 @@ The incoming MIDI CC messages with the CC id number outside of the Input range w
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

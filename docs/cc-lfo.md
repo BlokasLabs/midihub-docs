@@ -47,6 +47,6 @@ When a S&H LFO is in Active/Passive Mod Mode, Depth represents how much the outp
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

@@ -17,6 +17,6 @@ The incoming values are clipped to fit in range [Minimum;Maximum].
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

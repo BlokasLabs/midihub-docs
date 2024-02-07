@@ -57,6 +57,6 @@ For example, if you transform a Note On into a CC and assign the CC's *value* to
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

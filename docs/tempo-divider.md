@@ -11,6 +11,6 @@ A modifier pipe that divides the tempo by dropping multiples of Real-Time Clock 
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

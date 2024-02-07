@@ -11,6 +11,6 @@ A modifier pipe that amplifies the Velocity parameter of MIDI Note On messages.
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

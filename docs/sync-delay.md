@@ -14,6 +14,6 @@ Using this pipe some tricky MIDI hardware sync incompatibility issues can be res
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

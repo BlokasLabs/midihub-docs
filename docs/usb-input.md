@@ -16,6 +16,6 @@ See [The USB MIDI Port Mapping](usb-midi-port-mapping.md) for OS device mapping 
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

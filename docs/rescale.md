@@ -19,6 +19,6 @@ First incoming values are clipped at the In range, then they get linearly rescal
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

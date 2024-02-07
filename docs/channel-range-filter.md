@@ -20,6 +20,6 @@ Filter out first 4 channels, channel 6 and the 8 last channels:
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

@@ -11,6 +11,6 @@ A modifier pipe that adds its semitones argument to all MIDI Note On and Note Of
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

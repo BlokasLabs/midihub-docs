@@ -12,6 +12,6 @@ The entry point of Virtual MIDI data. The data that reached the matching letter 
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>

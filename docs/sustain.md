@@ -13,6 +13,6 @@ Chord mode can be used to automatically turn off previous notes once a new chord
 
 <span class="blokas-web-hide">
 
-[List of Pipes](quick-links.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#io-pipes)
 
 </span>
