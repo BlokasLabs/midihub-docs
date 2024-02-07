@@ -44,6 +44,6 @@ Check out the [Scala website](http://www.huygens-fokker.org/scala/),
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

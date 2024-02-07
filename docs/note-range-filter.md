@@ -28,6 +28,6 @@ C-1-B2, C4-B5, C#7
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

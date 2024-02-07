@@ -23,6 +23,6 @@ You can always set Chance or Timed Chance to 100% to cause the particular types 
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

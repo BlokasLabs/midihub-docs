@@ -12,6 +12,6 @@ The entry point of MIDI data. The data received through MIDI IN connector with t
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

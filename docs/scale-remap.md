@@ -26,6 +26,6 @@ It works on the basis of 12 notes per octave.
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

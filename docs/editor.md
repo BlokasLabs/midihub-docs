@@ -49,30 +49,34 @@ Events that are mapped to physical DIN-5 or USB ports take effect as soon as the
 
 ## The List of Pipes
 
-| I/O Pipes | | |
+| I/O Pipes {colspan=2} |||
 |----|----|----|
-| [MIDI Input](midi-input.md) | [MIDI Output](midi-output.md) | [USB Input](usb-input.md) |
-| [USB Output](usb-output.md) | [Virtual Input](virtual-input.md) | [Virtual Output](virtual-output.md) |
+| [MIDI Input](midi-input.md) {width=190} | [USB Input](usb-input.md) {width=190} | [Virtual Input](virtual-input.md) {width=190} |
+| [MIDI Output](midi-output.md) | [USB Output](usb-output.md) | [Virtual Output](virtual-output.md) |
 
-| Generator Pipes | | |
-|----|----|----|
-| [CC LFO](cc-lfo.md) | [Clock](clock.md) | |
 
-| Filter Pipes | | |
+| Generator Pipes {colspan=2} |||
 |----|----|----|
-| [Filter](filter.md) | [Channel Filter](channel-filter.md) | [Channel<br/>Range Filter](channel-range-filter.md)
-| [Note Range Filter](note-range-filter.md) | [CC Range Filter](cc-range-filter.md) | |
+| [CC LFO](cc-lfo.md) {width=190} | [Clock](clock.md) {width=190} | &nbsp; {width=190} |
 
-| Remap Pipes | | |
-|----|----|----|
-| [Note Remap](note-remap.md) | [Channel Remap](channel-remap.md) | [CC Remap](cc-remap.md) |
-| [Scale Remap](scale-remap.md) | [Micro Scale](micro-scale.md) |
 
-| Modifier Pipes | | |
+| Filter Pipes {colspan=2} |||
 |----|----|----|
-| [Note Length](note-length.md) | [Note Repeater](note-repeater.md) | [Arpeggiator](arpeggiator.md) |
-| [Delay](delay.md) | [Transpose](transpose.md) | [Harmonizer](harmonizer.md) |
-| [Dispatcher](dispatcher.md) | [Velocity Amp](velocity-amp.md) | [Equalizer](equalizer.md) |
-| [Sustain](sustain.md) | [Limiter](limiter.md) | [Rescale](rescale.md) |
-| [Transform](transform.md) | [Chance](chance.md) | [Randomizer](randomizer.md) |
-| [Tempo Divider](tempo-divider.md) | [Sync Delay](sync-delay.md) | |
+| [CC Range Filter](cc-range-filter.md) {width=190} | [Channel Range Filter](channel-range-filter.md) {width=190} | [Filter](filter.md) {width=190} |
+| [Channel Filter](channel-filter.md) | | |
+
+
+| Remap Pipes {colspan=2} |||
+|----|----|----|
+| [CC Remap](cc-remap.md) {width=190} | [Micro Scale](micro-scale.md) {width=190} | [Scale Remap](scale-remap.md) {width=190} |
+| [Channel Remap](channel-remap.md) | [Note Remap](note-remap.md) | &nbsp; |
+
+
+| Modifier Pipes {colspan=2} |||
+|----|----|----|
+| [Arpeggiator](arpeggiator.md) {width=190} | [Limiter](limiter.md) {width=190} | [Sync Delay](sync-delay.md) {width=190} |
+| [Chance](chance.md)           | [Note Length](note-length.md)	    | [Tempo Divider](tempo-divider.md) |
+| [Delay](delay.md)             | [Note Repeater](note-repeater.md) | [Transform](transform.md) |
+| [Dispatcher](dispatcher.md)   | [Randomizer](randomizer.md)       | [Transpose](transpose.md) |
+| [Equalizer](equalizer.md)     | [Rescale](rescale.md)             | [Velocity Amp](velocity-amp.md) |
+| [Harmonizer](harmonizer.md)   | [Sustain](sustain.md)             | &nbsp; |

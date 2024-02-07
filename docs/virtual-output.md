@@ -12,6 +12,6 @@ The forwarding point of Virtual MIDI data. The data that reaches the pipe will a
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

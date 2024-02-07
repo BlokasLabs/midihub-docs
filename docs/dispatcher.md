@@ -40,6 +40,6 @@ This pipe should be combined with Virtual Pipes and Channel Remap to route the M
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

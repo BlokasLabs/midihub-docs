@@ -24,6 +24,6 @@ Filter Mod Wheel MSB and LSB, and Channel Mode messages:
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

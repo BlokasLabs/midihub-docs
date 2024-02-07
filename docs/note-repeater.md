@@ -17,6 +17,6 @@ reach this pipe** for it to be able to do its work. The notes only get produced 
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

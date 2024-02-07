@@ -24,6 +24,6 @@ The incoming MIDI Notes with the note number outside of the Input range will get
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>

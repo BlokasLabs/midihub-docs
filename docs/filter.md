@@ -28,6 +28,6 @@ A modifier pipe that can selectively discard MIDI events of types: Note On, Note
 
 <span class="blokas-web-hide">
 
-[List of Pipes](index.md#the-list-of-pipes)
+[List of Pipes](quick-links.md#the-list-of-pipes)
 
 </span>
