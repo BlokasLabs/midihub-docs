@@ -50,7 +50,7 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tilde
 
-copyright: "&copy; 2019-2022 VILNIAUS BLOKAS UAB"
+copyright: "&copy; 2019-2024 VILNIAUS BLOKAS UAB"
 
 nav:
   - Quick Start: index.md
