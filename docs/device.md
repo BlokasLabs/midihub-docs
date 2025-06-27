@@ -48,7 +48,9 @@ The Button can be configured to do one of the following actions when held down f
 
 ### External Preset Change
 
-You may make a particular Midihub's port to listen for Program Change messages on a particular channel. PC0 - PC7 messages switch between presets 1 - 8.
+You can configure a specific Midihub port to listen for Program Change messages on a particular channel, allowing you to switch between presets using an external device. When enabled, PC0–PC7 messages will switch to presets 1–8, respectively.
+
+This setting can be configured in the **Device -> Settings** dialog. If you find that your presets are changing unexpectedly, it may be because your connected hardware is sending Program Change messages. You can disable this feature by setting the channel to 'OFF' in the settings.
 
 ### Initial Preset
 
