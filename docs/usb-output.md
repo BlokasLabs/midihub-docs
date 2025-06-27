@@ -2,7 +2,7 @@
 
 ![usb_out](https://blokas.io/images/midihub/pipes/usb_out.svg)
 
-The exit point of MIDI data. The data that reaches this pipe will be sent through the MIDI OUT connector with the matching letter.
+The exit point of MIDI data. The data that reaches this pipe will be sent through the USB port with the matching letter.
 
 The 4 USB MIDI ports on the computer map to A, B, C, D letters.
 

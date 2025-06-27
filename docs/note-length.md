@@ -10,7 +10,7 @@ A modifier pipe that fixes the note lengths to the given length. If Trigger is s
 | ---------------------- | ---------------------------------- |
 | Bypass                 | Whether processing is enabled.     |
 | Length                 | The length to fix the notes to.    |
-| Gate                   | The percentage amount to expand or shrink the note length parameter. <br/><br/>**0%**: Shortest length,<br/>**100%**: Unchanged length,<br/>**200%**: Double length. |
+| Gate                   | The percentage by which to expand or shrink the note length parameter. <br/><br/>**0%**: Shortest length,<br/>**100%**: Unchanged length,<br/>**200%**: Double length. |
 | Trigger                | Whether to trigger the fixed length note on the Note On or Note Off event. |
 | Sync                   | Whether to sync the length to the tempo. |
 | Decay                  | In case Trigger is set to Note Off, this parameter affects the velocity of the Note On that will get produced when triggered by decaying the velocity of original Note On message. The time set by this parameter is the time it would take to decay the original Note On velocity to 0. |

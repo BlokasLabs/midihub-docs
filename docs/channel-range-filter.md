@@ -15,7 +15,7 @@ Filter out first 4 channels, channel 6 and the 8 last channels:
 | Parameter              | Description                    |
 | ---------------------- | ------------------------------ |
 | Bypass                 | Whether processing is enabled. |
-| Drop in range          | Whether to drop messages within any of the ranges. Disabling this would inverse the operation and make it keep messages within the ranges. |
+| Drop in range          | Whether to drop messages within any of the ranges. Disabling this inverts the operation and makes it keep messages within the ranges. |
 | Ranges                 | A list of interval ranges and single values. See above for examples. |
 
 <span class="blokas-web-hide">
