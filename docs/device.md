@@ -52,6 +52,14 @@ You can configure a specific Midihub port to listen for Program Change messages 
 
 This setting can be configured in the **Device -> Settings** dialog. If you find that your presets are changing unexpectedly, it may be because your connected hardware is sending Program Change messages. You can disable this feature by setting the channel to 'OFF' in the settings.
 
+If your device sends Program Change messages outside of the 0-7 range, you can use a MIDI loopback to remap them. This involves sending the PC message out of Midihub and back into it on a different port. You can then use a `Transform` pipe to change the PC message into a CC, a `Rescale` pipe to remap the value, and another `Transform` pipe to change it back to a PC message with the desired value.
+
+Here's an example of a loopback setup:
+
+1.  Connect a MIDI cable from a MIDI OUT port on Midihub to a MIDI IN port.
+2.  In the Midihub Editor, create a pipeline that takes the PC message from your device, transforms and rescale it, and sends it to the MIDI OUT port used for the loopback.
+3.  The remapped PC message will then be received on the MIDI IN port and will trigger the preset change.
+
 ### Initial Preset
 
 Depending on the Initial Preset setting, upon powering on, Midihub either loads the very first preset, or the last preset that was saved to memory. This way, you may make Midihub by default load, say, Preset 7 upon powering on, if this was the last preset stored to memory before turning it off.
