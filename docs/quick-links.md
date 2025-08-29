@@ -7,6 +7,7 @@
 - [Insert Preview](insert-preview.md)
 - [MIDI Monitor](midi-monitor.md)
 - [Port Naming](port-naming.md)
+- [MIDI Mappings](midi-mappings.md)
 
 ## I/O Pipes
 - [MIDI Input](midi-input.md)

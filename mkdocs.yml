@@ -23,11 +23,11 @@ extra:
   discourse: "https://community.blokas.io/"
   disqus: "fake"
   social:
-    - type: "github"
+    - icon: "fontawesome/brands/github"
       link: "https://github.com/BlokasLabs"
-    - type: "twitter"
+    - icon: "fontawesome/brands/x-twitter"
       link: "https://twitter.com/blokaslabs"
-    - type: "facebook"
+    - icon: "fontawesome/brands/facebook"
       link: "https://www.facebook.com/blokaslabs/"
 repo_name: "midihub-docs"
 repo_url: "https://github.com/BlokasLabs/midihub-docs/"
@@ -50,7 +50,7 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tilde
 
-copyright: "&copy; 2019-2024 VILNIAUS BLOKAS UAB"
+copyright: "&copy; 2019-2025 VILNIAUS BLOKAS UAB"
 
 nav:
   - Quick Start: index.md
@@ -60,6 +60,7 @@ nav:
   - Inserting from Patchstorage: inserting-from-patchstorage.md
   - Insert Preview: insert-preview.md
   - MIDI Monitor: midi-monitor.md
+  - MIDI Mappings: midi-mappings.md
   - Port Naming: port-naming.md
   - Pipes:
       - MIDI Input: midi-input.md
@@ -85,6 +86,7 @@ nav:
       - Note Remap: note-remap.md
       - Channel Remap: channel-remap.md
       - CC Remap: cc-remap.md
+      - CC Table: cc-table.md
       - Scale Remap: scale-remap.md
       - Micro Scale: micro-scale.md
       - Velocity Amp: velocity-amp.md
@@ -97,6 +99,7 @@ nav:
       - Randomizer: randomizer.md
       - Tempo Divider: tempo-divider.md
       - Sync Delay: sync-delay.md
+      - Sync Delay Ms: sync-delay-ms.md
   - MIDI Port Mapping: usb-midi-port-mapping.md
 
 plugins:

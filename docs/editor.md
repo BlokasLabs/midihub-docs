@@ -32,20 +32,18 @@ The Pipelines are built by dragging in Pipe icons from Pipes pane into the main 
 
 If you are running two instances of Midihub Editor, Alt/Ctrl-drag may be used to copy a pipe from one canvas to the other.
 
+## Comments
+
+You may keep notes using inline comments in the Editor's Preset area. Simply right click and select Add Comment.
+
+To add a new line while editing a comment, use Shift + Enter.
+
 ## Pipe Parameters
 
 Every pipe has a 'Bypass' parameter which, when enabled, bypasses the processing of the pipe, so it passes the incoming data to the right unmodified. If the leftmost
 pipe is bypassed, the entire pipeline gets disabled.
 
-Almost every Pipe parameter can be MIDI mapped to MIDI controllers. While Midihub is connected, the Map buttons next to the parameter values in the Properties view are enabled.
-When a Map button is clicked, a dialog appears: "Mapping... Send a Note or CC message to any of Midihub's input ports:"
-Unless interrupted, Midihub will map the next external CC or Note message to the parameter. Don't forget to store the preset to memory after mapping changes are done.
-
-Alongside each Map button, there is an Add button. This button allows manual setting of parameter mappings for both physical inputs and virtual outputs.
-Afterwards, the mappings can be edited using the Edit button. The Add button can also be used when Midihub is disconnected.
-Settings within the Add/Edit dialog are maintained, allowing the same settings to be used for multiple successive parameters.
-
-Events that are mapped to physical DIN-5 or USB ports take effect as soon as they are received by Midihub. Preprocessing the events that are mapped to parameters can be done by manually creating mappings to Virtual Output ports. This way Midihub's Pipes can be used to preprocess the message before it is used to change a mapped parameter. The virtual mappings affect the mapped parameters as soon as a mapped MIDI event reaches the appropriate Virtual Output Pipe.
+See [MIDI Mappings](midi-mappings.md) for more information on controlling the parameters using external MIDI controllers as well as internally by using the Virtual outputs.
 
 ## I/O Pipes
 - [MIDI Input](midi-input.md)
@@ -58,6 +56,7 @@ Events that are mapped to physical DIN-5 or USB ports take effect as soon as the
 ## Generator Pipes
 - [CC LFO](cc-lfo.md)
 - [Clock](clock.md)
+- [CC Table](cc-table.md)
 
 ## Filter Pipes
 - [CC Range Filter](cc-range-filter.md)
@@ -87,6 +86,7 @@ Events that are mapped to physical DIN-5 or USB ports take effect as soon as the
 - [Rescale](rescale.md)
 - [Sustain](sustain.md)
 - [Sync Delay](sync-delay.md)
+- [Sync Delay Ms](sync-delay-ms.md)
 - [Tempo Divider](tempo-divider.md)
 - [Transform](transform.md)
 - [Transpose](transpose.md)
