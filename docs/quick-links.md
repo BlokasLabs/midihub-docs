@@ -20,6 +20,7 @@
 ## Generator Pipes
 - [CC LFO](cc-lfo.md)
 - [Clock](clock.md)
+- [CC Table](cc-table.md)
 
 ## Filter Pipes
 - [CC Range Filter](cc-range-filter.md)
@@ -49,6 +50,7 @@
 - [Rescale](rescale.md)
 - [Sustain](sustain.md)
 - [Sync Delay](sync-delay.md)
+- [Sync Delay Ms](sync-delay-ms.md)
 - [Tempo Divider](tempo-divider.md)
 - [Transform](transform.md)
 - [Transpose](transpose.md)

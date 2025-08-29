@@ -1,6 +1,6 @@
 # Sync Delay
 
-![sync_delay](https://blokas.io/images/midihub/pipes/sync_delay.svg)
+![sync_delay](https://blokas.io/images/midihub/pipes/sync_delay.png)
 
 A modifier pipe that drops a given number of Real-Time Clock MIDI messages or produces up to one quarter note worth of Clock messages in an instant to shift forward.
 The shift happens every time MIDI Start message is processed.

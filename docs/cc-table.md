@@ -1,6 +1,6 @@
 # CC Table
 
-![cc-table](https://blokas.io/images/midihub/pipes/cc-table.svg)
+![cc_table](https://blokas.io/images/midihub/pipes/cc_table.png)
 
 A pipe that can be placed both as a Generator (leftmost) pipe or as a Modifier (inline) pipe.
 It can inject CC events into the pipeline through **MIDI mappings** or directly from the Editor.

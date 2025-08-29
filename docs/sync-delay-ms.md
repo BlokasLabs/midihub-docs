@@ -1,6 +1,6 @@
 # Sync Delay Ms
 
-![sync_delay_ms](https://blokas.io/images/midihub/pipes/sync_delay_ms.svg)
+![sync_delay_ms](https://blokas.io/images/midihub/pipes/sync_delay_ms.png)
 
 A modifier pipe that delays realtime MIDI events by the set amount of milliseconds.
 
