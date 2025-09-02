@@ -2,7 +2,7 @@
 
 ![equalizer](https://blokas.io/images/midihub/pipes/equalizer.svg)
 
-A modifier pipe that applies a 3 band Eq curve on message values indicated by the Kind parameter.
+A modifier pipe that applies a 3-band EQ curve to message values indicated by the Kind parameter.
 
 The 3 bands are located at these positions:
 
@@ -13,7 +13,7 @@ The 3 bands are located at these positions:
 | Middle C4 std. | C1  | C4     | C7   |
 | Middle C5 std. | C2  | C5     | C8   |
 
-See the preview at the bottom of the the Properties panel to see how the curve looks like.
+See the preview at the bottom of the Properties panel to see how the curve looks.
 
 | Parameter              | Description                                              |
 | ---------------------- | -------------------------------------------------------- |
