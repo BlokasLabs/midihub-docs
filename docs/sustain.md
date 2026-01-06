@@ -9,7 +9,7 @@ Chord mode can be used to automatically turn off previous notes once a new chord
 | ---------------------- | -------------------------------------------------------- |
 | Bypass                 | Whether processing is enabled.                           |
 | Pedal On               | Whether the pedal is currently  on. You should map this parameter. |
-| Mode                   | **All**: Sustain all notes.<br/>**Chord**: Add sustained notes while at least one note is held down, once all keys are up and a new note is pressed, old notes will be turned off and newly pressed ones will be sustained.<br/>**Sostenuto**: The notes that were playing at the time the Pedal was pushed will be held, while new notes will play as normal. |
+| Mode                   | **All**: Sustain all notes.<br/>**Chord**: Add sustained notes while at least one note is held down, once all keys are up and a new note is pressed, old notes will be turned off and newly pressed ones will be sustained.<br/>**Semi Sostenuto**: The notes that were playing at the time the Pedal was pushed will be held, while new notes will play as normal. Replaying a previously played note will retrigger it, once released, it will no longer be sustained.<br/>**Sostenuto**: Same as Semi Sostenuto, except replayed notes will retrigger and keep being sustained. |
 
 <span class="blokas-web-hide">
 
