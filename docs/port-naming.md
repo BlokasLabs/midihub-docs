@@ -10,7 +10,7 @@ The USB port names as shown by the host OS can be renamed too, see [USB MIDI Por
 It's a good idea to rename the physical ports in the device defaults, and virtual ports in the preset memory, as that keeps presets easier to reuse, and
 changing physical connections and their names easier across all presets in memory.
 
-Here's a table showing what the resulting name of MIDI A input will be, depending on what name's are set in default and preset memories:
+Here's a table showing what the resulting name of MIDI A input will be, depending on what names are set in default and preset memories:
 
 | Default Memory | Preset Memory | Resulting Name |
 | -------------- | ------------- | -------------- |

@@ -2,7 +2,7 @@
 
 ![virt_in](https://blokas.io/images/midihub/pipes/virt_in.svg)
 
-The entry point of Virtual MIDI data. The data that reached the matching letter Virtual Output will appear here in the Virtual Input pipe and will be forwarded as is to the pipe on the right.
+The entry point of Virtual MIDI data. The data that reaches the Virtual Output with the matching letter will appear here in the Virtual Input pipe and will be forwarded as is to the pipe on the right.
 
 | Parameter | Description                    |
 | --------- | ------------------------------ |
