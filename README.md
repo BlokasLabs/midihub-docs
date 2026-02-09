@@ -1,6 +1,6 @@
 # Midihub Documentation
 
-If your are looking for Midihub documentation, head straight to the [docs page](https://blokas.io/midihub/docs/)!
+If you are looking for Midihub documentation, head straight to the [docs page](https://blokas.io/midihub/docs/)!
 
 
 # Contribution Guide
