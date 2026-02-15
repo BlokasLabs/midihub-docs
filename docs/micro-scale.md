@@ -4,6 +4,8 @@
 
 A modifier pipe that adjusts MIDI note numbers and generates pitch bend messages according to a micro tuning defined in Scala language.
 
+When retuning, the Micro Scale pipe may sometimes need to produce a different note along with a pitch bend to achieve the desired base note frequency. It uses the closest natural note to the desired frequency plus the necessary pitch bend amount to reach that frequency.
+
 This pipe acts similar to the [Dispatcher](dispatcher.md) pipe, as it dispatches each note to a new channel,
 since Pitch Bend messages apply for every note in the channel, to get correct polyphony, each note must go
 to its own channel.
@@ -15,6 +17,19 @@ Go to Device->Micro tunings... to manage the currently uploaded micro tunings.
 Check out the [Scala website](http://www.huygens-fokker.org/scala/),
 [Scala software](http://www.huygens-fokker.org/scala/downloads.html) and the
 [Scala examples](http://www.huygens-fokker.org/scala/examples.html) section to get started with micro tunings!
+
+::: tip
+When using a sequencer to record and play back micro-tuned notes, it's crucial to ensure that the sequencer records the Pitch Bend messages sent by the Micro Scale pipe. If the sequencer only records the note data, the tuning will be incorrect on playback.
+
+The recommended workflow is as follows:
+
+1. Send the output of the Micro Scale pipe to your sequencer.
+2. Record the performance in your sequencer.
+3. Disable the Micro Scale pipe in Midihub.
+4. Send the output of the sequencer directly to your synthesizer.
+
+This ensures that the sequencer captures the complete, micro-tuned performance, including the necessary Pitch Bend data, and plays it back correctly.
+:::
 
 | Parameter              | Description                                |
 | ---------------------- | ------------------------------------------ |
