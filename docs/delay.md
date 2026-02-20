@@ -14,6 +14,8 @@ All notes are turned off if Stop MIDI message is received, or if either Bypass o
 Overdub may be disabled to allow playing on top of the loop, the notes within the loop will not interrupt the
 held down notes.
 
+Note that every repeated note gets a Note Off after the set **Delay Time**, even if the original Note Off has not yet been received. This means the delayed notes cannot be longer than the delay itself. If you want both the Note On and Note Off events delayed by the same amount while preserving the original lengths, create two pipelines using **Transform** pipes: the first delays only the Note On events, and the second delays only the Note Off events.
+
 **If Sync is on, MIDI Clock input must be provided to the pipe** for the delay effect to work.
 
 | Parameter              | Description                        |
