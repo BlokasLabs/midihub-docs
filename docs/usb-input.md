@@ -2,7 +2,7 @@
 
 ![usb_in](https://blokas.io/images/midihub/pipes/usb_in.svg)
 
-The entry point of USB MIDI data. The data received from PC via the USB cable from matching USB MIDI device will be forwarded as is to the pipe on the right.
+The entry point of USB MIDI data. The data received from the PC via the USB cable from the matching USB MIDI device will be forwarded as is to the pipe on the right.
 
 The 4 USB MIDI ports on the computer map to A, B, C, D letters.
 

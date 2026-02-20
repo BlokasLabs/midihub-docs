@@ -4,7 +4,7 @@
 
 A modifier pipe that repeats every note held down at the given rate, using the velocity of the last note held down or aftertouch.
 Swing and accent can be applied to the produced notes. The notes produced are quantized to the tempo, so **MIDI Clock messages must
-reach this pipe** for it to be able to do its work. The notes only get produced on quantization grid.
+reach this pipe** for it to be able to do its work. The notes are produced only on the quantization grid.
 
 | Parameter              | Description                        |
 | ---------------------- | ---------------------------------- |

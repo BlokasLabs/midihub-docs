@@ -11,7 +11,7 @@ If it is placed as a Modifier, it can be synchronized to the beat,
 as well as it can apply modulation to previous CC LFO pipes in the pipeline,
 and/or to the incoming CC value from the input.
 
-See the preview at the bottom of the the Properties panel to visualize how the LFO waveform looks like.
+See the preview at the bottom of the Properties panel to visualize how the LFO waveform looks.
 
 | Parameter              | Description                    |
 | ---------------------- | ------------------------------ |
@@ -25,7 +25,7 @@ See the preview at the bottom of the the Properties panel to visualize how the L
 | Waveform               | The waveform of the LFO. For Sample & Hold waveform description, see below. |
 | Duty Cycle             | The duty cycle of the PWM wave. Not applicable to other waveforms. |
 | Output Enabled         | Whether the output is actually enabled. Output may be disabled while keeping the LFO clock still ticking. |
-| Mode                   | **Free running**: waveform is generated freely.<br/>**Active Mod.**: LFO is actively modulating (offsetting) the incoming CC value of the same id, generating new values even if incoming CC value is not changing.<br/>**Passive Mod.**: LFO is passively modulating (offseting) the incoming CC value of the same id, only on receiving the actual CC value. |
+| Mode                   | **Free running**: waveform is generated freely.<br/>**Active Mod.**: LFO is actively modulating (offsetting) the incoming CC value of the same id, generating new values even if the incoming CC value is not changing.<br/>**Passive Mod.**: LFO is passively modulating (offsetting) the incoming CC value of the same id, only on receiving the actual CC value. |
 | Retrigger              | Controls retriggering behavior - LFO waveform can be retriggered on individual notes or on chords. |
 | Sync to BPM            | (Only as Modifier) Whether to sync to the incoming BPM clock. |
 | Retrigger on SysCommon | (Only as Modifier) Whether to retrigger on system common messages such as 'start', 'continue', 'song position pointer'. |
@@ -41,7 +41,7 @@ If it is placed as a Generator, the S&H LFO uses Noise as a sampling input.
 If it is placed as a Modifier, however, the S&H LFO needs a CC input in all three of its modes (including Free Running mode).
 Here it uses the last received CC value for sampling: this CC input might be direct or modified from an external source, or from another Midihub LFO.
 
-For example, a tempo-synced Free Running S&H LFO might use a Noise LFO to sample and hold random values every bar (at points set by Phase, Duty Cycle and Rate)
+For example, a tempo-synced Free Running S&H LFO might use a Noise LFO to sample and hold random values every bar (at points set by Phase, Duty Cycle and Rate). 
 
 When a S&H LFO is in Active/Passive Mod Mode, Depth represents how much the output value's displacement from 64 should be 'amplified'. For example, 68 -> 68 at 0%, 68 -> 70 at 50%, 68 -> 72 at 100%.
 
