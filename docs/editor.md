@@ -5,6 +5,8 @@
 The Midihub Editor lets you customize Midihub's processing logic by laying down the processing pipelines using different Pipes, sort of MIDI effects.
 The interface is based on intuitive Drag & Drop model. Every pipeline starts from an Input or Generator pipe, from which MIDI data flows to the right, until it ends up in an Output pipe. You can play around with the Editor even without the device connected. Midihub Editor works on all major platforms - Windows, macOS and Linux!
 
+Using Midihub Editor with supported desktop AI clients can help you explore presets faster, inspect the current setup, understand how a preset works, and get assistance with building or refining processing pipelines. It can also make it easier to troubleshoot routing ideas, review parameter choices, and experiment with new preset structures without starting from scratch each time. See [AI Tools](ai-tools.md).
+
 <span class="blokas-editor-hide">
 
 ## Downloads

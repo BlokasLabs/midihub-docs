@@ -2,6 +2,7 @@
 
 - [Midihub Hardware](device.md)
 - [Editor Overview](editor.md)
+- [AI Tools](ai-tools.md)
 - [Inserting Pipelines from File](inserting-pipelines-from-file.md)
 - [Inserting from Patchstorage](inserting-from-patchstorage.md)
 - [Insert Preview](insert-preview.md)

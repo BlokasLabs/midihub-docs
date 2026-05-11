@@ -50,12 +50,13 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tilde
 
-copyright: "&copy; 2019-2025 VILNIAUS BLOKAS UAB"
+copyright: "&copy; 2017-2026 VILNIAUS BLOKAS UAB"
 
 nav:
   - Quick Start: index.md
   - The Device: device.md
   - The Editor: editor.md
+  - AI Tools: ai-tools.md
   - Inserting Pipelines from File: inserting-pipelines-from-file.md
   - Inserting from Patchstorage: inserting-from-patchstorage.md
   - Insert Preview: insert-preview.md
