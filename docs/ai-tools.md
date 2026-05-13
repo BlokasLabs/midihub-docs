@@ -10,6 +10,8 @@ Open Help -> Configure AI Tools...
 
 The AI Tool Configuration dialog checks which supported desktop AI clients are installed on your computer and shows their current status.
 
+The dialog also includes an "AI Tools Enabled" checkbox. If AI Tools are disabled, the AI Tools toolbar button is hidden. To enable AI Tools again, open Help -> Configure AI Tools...
+
 Supported tools include:
 
 - Claude Desktop
