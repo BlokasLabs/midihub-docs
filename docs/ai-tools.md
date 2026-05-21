@@ -56,18 +56,19 @@ If your preferred AI client is not listed in the AI Tool Configuration dialog, c
 
 The dialog shows these values:
 
-- Stdio MCP: the local Midihub MCP server command.
-- Stdio MCP Arg: an extra argument for the stdio command. This field is shown on Linux only.
-- HTTP MCP: the Midihub Oracle MCP server URL.
+- Midihub MCP Command: the local Midihub MCP launch command.
+- Midihub MCP Extra Arguments: extra arguments for the Midihub MCP command. This field is shown on Linux only.
+- Midihub Oracle MCP Command: the local Midihub Oracle MCP launch command.
+- Midihub Oracle MCP Extra Arguments: extra arguments for the Midihub Oracle MCP command. This filed is shown on Linux only.
 
 Use these values in your AI client's MCP configuration.
 
-On Linux, configure the stdio MCP command together with the Stdio MCP Arg value shown in the dialog.
+On Linux, configure the Midihub MCP command together with the Midihub MCP Extra Arguments value shown in the dialog.
 
 In most cases, you should configure both:
 
-- The stdio MCP server for local Midihub Editor access.
-- The HTTP MCP server for Midihub Oracle access.
+- The Midihub MCP command for local Midihub Editor access.
+- The Midihub Oracle MCP command for Midihub Oracle access.
 
 Use the Copy buttons in the dialog to avoid typing the values manually.
 
@@ -83,4 +84,4 @@ If the AI client cannot see Midihub tools after configuration, check the status 
 
 On Linux, Midihub Editor currently supports manual MCP configuration only.
 
-Open Help -> Configure AI Tools... to view the manual stdio MCP command, the Linux-only stdio argument, and the HTTP MCP value, then paste them into your AI client's MCP configuration.
+Open Help -> Configure AI Tools... to view the Midihub MCP command, the Linux-only extra arguments, and the Midihub Oracle MCP command, then paste them into your AI client's MCP configuration.
