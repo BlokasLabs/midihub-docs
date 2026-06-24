@@ -4,7 +4,7 @@
 
 Midihub is the backbone of your MIDI hardware interconnectivity. It has MIDI DIN-5 input and output ports, 4 of each, as well as a USB port for power supply
 and/or communicating with the PC and its software. All MIDI data flows through the customizable MIDI Processing Pipelines within the device with extremely low
-latency and without involving any processing on the PC. It enables expanding the capabilities of your setup and makes interop between MIDI hardware easy.
+latency and without involving any processing on the PC. It enables expanding the capabilities of your setup and makes interoperability between MIDI hardware easy.
 
 ## Input / Output
 
@@ -16,8 +16,8 @@ are defined by the OS that is running on your PC.
 
 See [The USB MIDI Port Mapping](usb-midi-port-mapping.md) for more details.
 
-MIDI controllers with only USB output can't be connected directly to Midihub, however, they can still be used with Midihub if both are connected via a USB host such
-as your PC or something like Raspberry Pi, the host then can forward the MIDI data coming from a USB controller to one (or more) Midihub's USB ports. The utilities
+MIDI controllers with only USB output can't be connected directly to Midihub; however, they can still be used with Midihub if both are connected via a USB host,
+such as your PC or a Raspberry Pi. The host can then forward the MIDI data coming from a USB controller to one (or more) of Midihub's USB ports. The utilities
 to achieve this vary with the OS, but to list a few, there's 'aconnect' for Linux, 'MIDI Patchbay' on Mac, 'MIDI-OX' on Windows, and most DAWs provide the functionality
 to forward MIDI data between connected MIDI ports.
 
@@ -48,7 +48,7 @@ The Button can be configured to do one of the following actions when held down f
 
 ### External Preset Change
 
-You may make a particular Midihub's port to listen for Program Change messages on a particular channel. PC0 - PC7 messages switch between presets 1 - 8.
+You may configure a particular Midihub port to listen for Program Change messages on a particular channel. PC0 - PC7 messages switch between presets 1 - 8.
 
 ### Initial Preset
 
@@ -56,7 +56,7 @@ Depending on the Initial Preset setting, upon powering on, Midihub either loads 
 
 ## Technical Specification
 
-| MIDI Paremeters | Value | Other Parameters | Value
+| MIDI Parameters | Value | Other Parameters | Value
 |----|----|----|----|
 | Input/Output Connectors | 8 x DIN-5 Female Sockets & USB-B Port | Enclosure | Powder-Coated 1mm Steel |
 | MIDI Loopback Latency | Less than 1.5ms | Power | Bus-Powered - Computer or 5V USB Power Supply |
