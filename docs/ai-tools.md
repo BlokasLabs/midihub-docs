@@ -15,11 +15,11 @@ The dialog also includes an "AI Tools Enabled" checkbox. The AI Tools toolbar bu
 Supported tools include:
 
 - Claude Desktop
-- Codex
+- Claude Code CLI
+- ChatGPT / Codex (desktop, CLI, and IDE extension)
 - Cursor
 - Gemini CLI
-- VS Code
-- Windsurf
+- VS Code / Copilot
 
 The following statuses may appear:
 
@@ -82,6 +82,6 @@ If the AI client cannot see Midihub tools after configuration, check the status 
 
 ## Linux
 
-On Linux, Midihub Editor currently supports manual MCP configuration only.
+On Linux, Midihub Editor can automatically link the supported AI tools, just as on Windows and macOS.
 
-Open Help -> Configure AI Tools... to view the Midihub MCP command, the Linux-only extra arguments, and the Midihub Oracle MCP command, then paste them into your AI client's MCP configuration.
+Open Help -> Configure AI Tools... and click Link next to a detected tool. For other clients, use Manual Instructions... and copy both commands together with their extra arguments.
