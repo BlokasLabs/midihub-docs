@@ -37,6 +37,7 @@
 - [Micro Scale](micro-scale.md)
 - [Note Remap](note-remap.md)
 - [Scale Remap](scale-remap.md)
+- [Note to Degree / Degree to Note](note-degree.md)
 
 ## Modifier Pipes
 - [Arpeggiator](arpeggiator.md)

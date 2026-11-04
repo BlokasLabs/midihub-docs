@@ -23,7 +23,8 @@ It is recommended to map the CC n Value parameters to external controllers.
 | 4th CC Id              | ... |
 | 5th CC Id              | ... |
 | 6th CC Id              | ... |
-| 7th CC Id              | The CC Id number of the last table slot. |
+| 7th CC Id              | ... |
+| 8th CC Id              | The CC Id number of the last table slot. |
 | CC 0 Value             | The CC Value to produce using the 1st CC Id. |
 | CC 1 Value             | ... |
 | CC 2 Value             | ... |

@@ -24,6 +24,7 @@ Adjusting the Inversion parameter beyond the number of notes harmonized creates 
 | 8th interval           | Same as above. |
 | Play Root Note?        | Whether to play the +0 root note. |
 | Inversion              | The chord inversion number. |
+| Steps per Octave | Number of note-number steps used for octave shifts in chord inversions, from **1 to 16**; default **12**. Between [Note to Degree and Degree to Note](note-degree.md), match their **Degree Count** (for example, **7** for major or minor). This does not rescale the interval settings. |
 
 <span class="blokas-web-hide">
 

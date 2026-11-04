@@ -11,9 +11,9 @@ When in Modifier position, incoming Start, Stop, Continue and Song Position Poin
 | Bypass                 | Whether processing is enabled. |
 | BPM                    | Beats per minute to generate.  |
 | Started                | Whether the clock is started and generating output. |
-| Start                  | Start the clock, also producing a MIDI Start message. |
-| Continue               | Start the clock, also producing a MIDI Continue message. |
-| Stop                   | Stop the clock, also producing a MIDI Stop message. |
+| Manual Start           | Start the clock, also producing a MIDI Start message. |
+| Manual Continue        | Start the clock, also producing a MIDI Continue message. |
+| Manual Stop            | Stop the clock, also producing a MIDI Stop message. |
 | Measure Duration       | The duration of the measure in Beat units. (The upper part of Time Signature) Relevant for Tap Tempo. |
 | Beat Duration          | The duration of a single beat, always a power of 2. (The lower part of Time Signature) Can be used for BPM multiplication purposes. |
 | Tap Tempo              | Tap Tempo button - adjusts BPM according to rolling average of up to 32 taps. See Tap Tempo notes below. |

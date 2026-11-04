@@ -41,6 +41,7 @@ Multiple variations of note sequences can be selected:
 | Octave Range           | The range of octaves to go through. |
 | Repetitions            | The amount of times to repeat the same step in the arpeggio sequence. |
 | Retrigger Octave       | Whether to reset the current octave to 0 when all notes are off. |
+| Steps per Octave | Number of note-number steps between octaves in **Octave Range**, from **1 to 16**; default **12**. Between [Note to Degree and Degree to Note](note-degree.md), match their **Degree Count** (for example, **7** for major or minor). |
 
 <span class="blokas-web-hide">
 
