@@ -19,6 +19,7 @@
 - [Virtual Output](virtual-output.md)
 
 ## Generator Pipes
+- [CC / CC RPN / CC NRPN](cc-rpn-nrpn.md)
 - [CC LFO](cc-lfo.md)
 - [Clock](clock.md)
 - [CC Table](cc-table.md)

@@ -70,6 +70,7 @@ nav:
       - USB Output: usb-output.md
       - Virtual Input: virtual-input.md
       - Virtual Output: virtual-output.md
+      - CC / CC RPN / CC NRPN: cc-rpn-nrpn.md
       - CC LFO: cc-lfo.md
       - Clock: clock.md
       - Note Length: note-length.md
