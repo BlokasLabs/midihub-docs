@@ -3,7 +3,7 @@
 ![sustain](https://blokas.io/images/midihub/pipes/sustain.svg)
 
 A modifier pipe that drops Note Off messages, according to its Mode and Pedal On parameters. Produces all the necessary note off messages once the Pedal is off.
-Chord mode can be used to automatically turn off previous notes once a new chord is being played. Sostenuto holds only the notes that were playing at the time the Pedal was pushed, allowing the performer to play further notes as noraml.
+Chord mode can be used to automatically turn off previous notes once a new chord is being played. Sostenuto holds only the notes that were playing at the time the Pedal was pushed, allowing the performer to play further notes as normal.
 
 | Parameter              | Description                                              |
 | ---------------------- | -------------------------------------------------------- |
